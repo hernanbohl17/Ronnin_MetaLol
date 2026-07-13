@@ -1,0 +1,1885 @@
+{
+  "updated_at": "2026-07-13T03:40:05.444762+00:00",
+  "region": "kr",
+  "patch": "16.13.1",
+  "ddragon_version": "16.13.1",
+  "pool": {
+    "TOP": [
+      "KSante",
+      "Jayce",
+      "Ambessa"
+    ],
+    "JG": [
+      "Graves",
+      "LeeSin",
+      "Sylas"
+    ],
+    "MID": [
+      "Yorick",
+      "Aurora",
+      "Hwei"
+    ],
+    "ADC": [
+      "Jhin",
+      "Varus",
+      "Zeri"
+    ],
+    "SUPP": [
+      "Bard",
+      "Neeko",
+      "Pyke",
+      "Camille"
+    ]
+  },
+  "champions": {
+    "KSante": {
+      "name": "K'Sante",
+      "lane": "TOP",
+      "winrate": 50.2,
+      "pickrate": 2.2,
+      "banrate": 12.8,
+      "stats_source": "sample",
+      "runes": {
+        "primary": [
+          {
+            "id": 8437,
+            "name": "Garras del inmortal",
+            "icon": "perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png"
+          },
+          {
+            "id": 8446,
+            "name": "Demoler",
+            "icon": "perk-images/Styles/Resolve/Demolish/Demolish.png"
+          },
+          {
+            "id": 8444,
+            "name": "Fuerzas renovadas",
+            "icon": "perk-images/Styles/Resolve/SecondWind/SecondWind.png"
+          },
+          {
+            "id": 8451,
+            "name": "Sobrecrecimiento",
+            "icon": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png"
+          }
+        ],
+        "secondary": [
+          {
+            "id": 9111,
+            "name": "Triunfo",
+            "icon": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "id": 9104,
+            "name": "Leyenda: Presteza",
+            "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          }
+        ],
+        "note": "Garras del inmortal + Demoler es la página estándar en Corea para K'Sante."
+      },
+      "build": {
+        "starting": [
+          {
+            "id": 1054,
+            "name": "Escudo de Doran"
+          },
+          {
+            "id": 2003,
+            "name": "Poción de vida"
+          }
+        ],
+        "core": [
+          {
+            "id": 6662,
+            "name": "Guantelete de hielo"
+          },
+          {
+            "id": 3068,
+            "name": "Égida de fuego solar"
+          },
+          {
+            "id": 3084,
+            "name": "Corazón de acero"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3075,
+            "name": "Malla de espinas"
+          },
+          {
+            "id": 2504,
+            "name": "Rookern kaénico"
+          },
+          {
+            "id": 2502,
+            "name": "Desesperanza eterna"
+          },
+          {
+            "id": 3047,
+            "name": "Botas blindadas"
+          }
+        ]
+      },
+      "combo": {
+        "keys": "Q → Q → E(aliado/muro) → W → R",
+        "description": "Apila 2 Q para cargar el tercer Q con derribo; usa E para reposicionarte y W para bloquear daño. Con R (All Out) busca aislar al carry contra un muro."
+      },
+      "playstyle": "Tanque-skirmisher: juega el early con Grasp intercambiando cortos, y transforma con R cuando puedas llevarte al carry enemigo lejos de su equipo.",
+      "alt_builds": {
+        "vs_offensive": "Contra duelistas (Fiora, Gwen): cambia Grasp por Sacudida, sube Coraza de hueso y prioriza Cota de espinas + Botas de acero laminado.",
+        "vs_defensive": "Contra tanques (Ornn, Malphite): mantén Grasp con Demoler, compra Guantelete gélido temprano y añade daño con Cielo hendido."
+      },
+      "counters": [
+        {
+          "champion_id": "Fiora",
+          "champion_name": "Fiora",
+          "style": "ofensivo",
+          "tip": "Su W bloquea tu W y tu 3er Q. Intercambia solo cuando su W esté en enfriamiento.",
+          "winrate_vs": 44.8
+        },
+        {
+          "champion_id": "Gwen",
+          "champion_name": "Gwen",
+          "style": "ofensivo",
+          "tip": "Te destroza con daño % de vida. Pide ayuda del jungla y no le des intercambios largos.",
+          "winrate_vs": 47.3
+        },
+        {
+          "champion_id": "Ornn",
+          "champion_name": "Ornn",
+          "style": "defensivo",
+          "tip": "Línea pasiva: apila Demoler, gana prioridad y rota antes que él.",
+          "winrate_vs": 46.1
+        }
+      ]
+    },
+    "Jayce": {
+      "name": "Jayce",
+      "lane": "TOP",
+      "winrate": 47.8,
+      "pickrate": 11.4,
+      "banrate": 12.9,
+      "stats_source": "sample",
+      "runes": {
+        "primary": [
+          {
+            "id": 8010,
+            "name": "Conquistador",
+            "icon": "perk-images/Styles/Precision/Conqueror/Conqueror.png"
+          },
+          {
+            "id": 9111,
+            "name": "Triunfo",
+            "icon": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "id": 9104,
+            "name": "Leyenda: Presteza",
+            "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "id": 8014,
+            "name": "Golpe de gracia",
+            "icon": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+          }
+        ],
+        "secondary": [
+          {
+            "id": 8226,
+            "name": "Banda de maná",
+            "icon": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "id": 8210,
+            "name": "Trascendencia",
+            "icon": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          }
+        ],
+        "note": "Conquistador es lo más jugado; Primer golpe es alternativa para partidas de puro poke."
+      },
+      "build": {
+        "starting": [
+          {
+            "id": 1055,
+            "name": "Espada de Doran"
+          },
+          {
+            "id": 2003,
+            "name": "Poción de vida"
+          }
+        ],
+        "core": [
+          {
+            "id": 6692,
+            "name": "Eclipse"
+          },
+          {
+            "id": 3004,
+            "name": "Manamune"
+          },
+          {
+            "id": 6694,
+            "name": "Rencor de Serylda"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3142,
+            "name": "Filo fantasmal de Youmuu"
+          },
+          {
+            "id": 3814,
+            "name": "Filo de la noche"
+          },
+          {
+            "id": 3158,
+            "name": "Botas jonias de la lucidez"
+          }
+        ]
+      },
+      "combo": {
+        "keys": "R(cañón) → E(puerta) + Q → W → R(martillo) → Q → E",
+        "description": "Poke con Q acelerado por la puerta E; cuando el rival esté bajo, cambia a martillo, salta con Q y expúlsalo con E hacia tu torre."
+      },
+      "playstyle": "Bully de línea: castiga cada last hit con Q-E de cañón y juega el mid game agrupado con tu equipo buscando poke antes de objetivos.",
+      "alt_builds": {
+        "vs_offensive": "Contra all-in (Irelia): inicia Escudo de Doran, runa Segundo aliento y considera Filo de la noche segundo.",
+        "vs_defensive": "Contra tanques (Malphite, Ornn): Rencor de Serylda antes y Ataque intensificado en runas para intercambios cortos."
+      },
+      "counters": [
+        {
+          "champion_id": "Malphite",
+          "champion_name": "Malphite",
+          "style": "defensivo",
+          "tip": "Escala armadura y anula tu daño. Presiona antes del nivel 6 o pierde relevancia.",
+          "winrate_vs": 48.6
+        },
+        {
+          "champion_id": "Irelia",
+          "champion_name": "Irelia",
+          "style": "ofensivo",
+          "tip": "Si te alcanza, mueres. Mantén la oleada lejos de ella y usa E de martillo como seguro.",
+          "winrate_vs": 46.0
+        },
+        {
+          "champion_id": "Ornn",
+          "champion_name": "Ornn",
+          "style": "defensivo",
+          "tip": "Poke gratis en línea, pero respeta su all-in con brittle a partir de nivel 6.",
+          "winrate_vs": 45.3
+        }
+      ]
+    },
+    "Ambessa": {
+      "name": "Ambessa",
+      "lane": "TOP",
+      "winrate": 48.6,
+      "pickrate": 11.7,
+      "banrate": 5.0,
+      "stats_source": "sample",
+      "runes": {
+        "primary": [
+          {
+            "id": 8010,
+            "name": "Conquistador",
+            "icon": "perk-images/Styles/Precision/Conqueror/Conqueror.png"
+          },
+          {
+            "id": 9111,
+            "name": "Triunfo",
+            "icon": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "id": 9104,
+            "name": "Leyenda: Presteza",
+            "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "id": 8014,
+            "name": "Golpe de gracia",
+            "icon": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+          }
+        ],
+        "secondary": [
+          {
+            "id": 8444,
+            "name": "Fuerzas renovadas",
+            "icon": "perk-images/Styles/Resolve/SecondWind/SecondWind.png"
+          },
+          {
+            "id": 8473,
+            "name": "Revestimiento de huesos",
+            "icon": "perk-images/Styles/Resolve/BonePlating/BonePlating.png"
+          }
+        ],
+        "note": "Conquistador con secundaria de Valor (Segundo aliento + Coraza de hueso) es el estándar KR."
+      },
+      "build": {
+        "starting": [
+          {
+            "id": 1054,
+            "name": "Escudo de Doran"
+          },
+          {
+            "id": 2003,
+            "name": "Poción de vida"
+          }
+        ],
+        "core": [
+          {
+            "id": 6692,
+            "name": "Eclipse"
+          },
+          {
+            "id": 3071,
+            "name": "Cuchilla negra"
+          },
+          {
+            "id": 3053,
+            "name": "Calibrador de Sterak"
+          }
+        ],
+        "optional": [
+          {
+            "id": 6333,
+            "name": "Baile de la muerte"
+          },
+          {
+            "id": 3026,
+            "name": "Ángel de la guarda"
+          },
+          {
+            "id": 6694,
+            "name": "Rencor de Serylda"
+          }
+        ]
+      },
+      "combo": {
+        "keys": "Q1 → dash pasiva → W(parry) → Q2 → E → R",
+        "description": "Cada habilidad te da un mini-dash con la pasiva: encadena Q-Q reposicionándote, absorbe el daño clave con W y cierra con E. La R suprime al objetivo prioritario a través del CC."
+      },
+      "playstyle": "Duelista de intercambios cortos: entra, pega el combo con los dashes de la pasiva y sal antes de que respondan. En peleas, tu R elimina al carry enemigo del mapa.",
+      "alt_builds": {
+        "vs_offensive": "Contra duelistas (Fiora, Gwen): Cielo hendido primero para sustain y juega intercambios ultra cortos con W lista.",
+        "vs_defensive": "Contra tanques (Malphite, Ornn): Machete negro temprano, Rencor de Serylda tercero y apila Demoler si cambias a Garras del inmortal."
+      },
+      "counters": [
+        {
+          "champion_id": "Fiora",
+          "champion_name": "Fiora",
+          "style": "ofensivo",
+          "tip": "Su riposte castiga tu W predecible. Usa W solo para bloquear el stun de su propia W.",
+          "winrate_vs": 47.3
+        },
+        {
+          "champion_id": "Malphite",
+          "champion_name": "Malphite",
+          "style": "defensivo",
+          "tip": "Apila armadura y anula tu daño físico. Gana antes del nivel 9 o rota a peleas.",
+          "winrate_vs": 44.5
+        },
+        {
+          "champion_id": "Gwen",
+          "champion_name": "Gwen",
+          "style": "ofensivo",
+          "tip": "Su niebla ignora tu all-in y te gana peleas largas. Intercambia corto y sal.",
+          "winrate_vs": 46.3
+        }
+      ]
+    },
+    "Graves": {
+      "name": "Graves",
+      "lane": "JG",
+      "winrate": 48.9,
+      "pickrate": 8.1,
+      "banrate": 14.0,
+      "stats_source": "sample",
+      "runes": {
+        "primary": [
+          {
+            "id": 8021,
+            "name": "Pies veloces",
+            "icon": "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png"
+          },
+          {
+            "id": 9111,
+            "name": "Triunfo",
+            "icon": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "id": 9104,
+            "name": "Leyenda: Presteza",
+            "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "id": 8014,
+            "name": "Golpe de gracia",
+            "icon": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+          }
+        ],
+        "secondary": [
+          {
+            "id": 8143,
+            "name": "Impacto repentino",
+            "icon": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png"
+          },
+          {
+            "id": 8135,
+            "name": "Cazador de tesoros",
+            "icon": "perk-images/Styles/Domination/TreasureHunter/TreasureHunter.png"
+          }
+        ],
+        "note": "Juego de pies para sustain; Cosecha oscura aparece en Corea para estilos de snowball."
+      },
+      "build": {
+        "starting": [],
+        "core": [
+          {
+            "id": 6676,
+            "name": "Recaudadora"
+          },
+          {
+            "id": 3031,
+            "name": "Filo infinito"
+          },
+          {
+            "id": 3036,
+            "name": "Recuerdos de lord Dominik"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3142,
+            "name": "Filo fantasmal de Youmuu"
+          },
+          {
+            "id": 3072,
+            "name": "Sanguinaria"
+          },
+          {
+            "id": 3006,
+            "name": "Grebas de berserker"
+          }
+        ]
+      },
+      "combo": {
+        "keys": "E → AA → Q → AA (E resetea el AA)",
+        "description": "El E recarga un proyectil y resetea el ataque básico: pega AA, dash con E, AA instantáneo y Q hacia una pared para el doble impacto."
+      },
+      "playstyle": "Jungla de farmeo agresivo: limpia rápido, roba campamentos con tu rango de burst y busca peleas 1v1 donde tu E acumule armadura.",
+      "alt_builds": {
+        "vs_offensive": "Contra invades (Elise, Kha'Zix): inicia con visión profunda, runa Coraza de hueso secundaria y primer ítem defensivo-híbrido.",
+        "vs_defensive": "Contra tanques (Rammus, Poppy): Recuerdos de lord Dominik en segundo ítem y evita peleas largas donde su armadura gane."
+      },
+      "counters": [
+        {
+          "champion_id": "Rammus",
+          "champion_name": "Rammus",
+          "style": "defensivo",
+          "tip": "Su armadura y taunt anulan tus AA. Juega por los carries, no por él.",
+          "winrate_vs": 44.2
+        },
+        {
+          "champion_id": "Poppy",
+          "champion_name": "Poppy",
+          "style": "defensivo",
+          "tip": "Su W cancela tu E. Guarda el dash hasta que gaste la habilidad.",
+          "winrate_vs": 47.7
+        },
+        {
+          "champion_id": "Elise",
+          "champion_name": "Elise",
+          "style": "ofensivo",
+          "tip": "Fuerte early: cuida tus primeros campamentos y pídele visión a tu equipo.",
+          "winrate_vs": 48.3
+        }
+      ]
+    },
+    "LeeSin": {
+      "name": "Lee Sin",
+      "lane": "JG",
+      "winrate": 53.1,
+      "pickrate": 5.8,
+      "banrate": 5.1,
+      "stats_source": "sample",
+      "runes": {
+        "primary": [
+          {
+            "id": 8010,
+            "name": "Conquistador",
+            "icon": "perk-images/Styles/Precision/Conqueror/Conqueror.png"
+          },
+          {
+            "id": 9111,
+            "name": "Triunfo",
+            "icon": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "id": 9104,
+            "name": "Leyenda: Presteza",
+            "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "id": 8017,
+            "name": "Derribado",
+            "icon": "perk-images/Styles/Precision/CutDown/CutDown.png"
+          }
+        ],
+        "secondary": [
+          {
+            "id": 8143,
+            "name": "Impacto repentino",
+            "icon": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png"
+          },
+          {
+            "id": 8105,
+            "name": "Cazador incesante",
+            "icon": "perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png"
+          }
+        ],
+        "note": "Conquistador estándar; Electrocutar si vas full lethality al estilo KR."
+      },
+      "build": {
+        "starting": [],
+        "core": [
+          {
+            "id": 6692,
+            "name": "Eclipse"
+          },
+          {
+            "id": 6610,
+            "name": "Firmamento desgarrado"
+          },
+          {
+            "id": 3071,
+            "name": "Cuchilla negra"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3053,
+            "name": "Calibrador de Sterak"
+          },
+          {
+            "id": 3026,
+            "name": "Ángel de la guarda"
+          },
+          {
+            "id": 6333,
+            "name": "Baile de la muerte"
+          }
+        ]
+      },
+      "combo": {
+        "keys": "Q → Q2 → ward-salto → R → patada hacia tu equipo (InSec)",
+        "description": "Marca con Q, conecta el segundo Q, coloca guardián detrás del objetivo, salta con W y patea con R hacia tu equipo."
+      },
+      "playstyle": "Early game dominante: ganka desde nivel 2-3, invade con visión y convierte ventajas antes del minuto 20, cuando tu daño decae.",
+      "alt_builds": {
+        "vs_offensive": "Contra duelistas de jungla: Cielo hendido primero para sustain y Coraza de hueso en runas.",
+        "vs_defensive": "Contra tanques/scaling (Nunu, Udyr): full lethality con Eclipse + Espectro de Youmuu y termina la partida temprano."
+      },
+      "counters": [
+        {
+          "champion_id": "Rammus",
+          "champion_name": "Rammus",
+          "style": "defensivo",
+          "tip": "No puedes matarlo y su post-6 te ganka mejor. Juega en el lado opuesto del mapa.",
+          "winrate_vs": 45.2
+        },
+        {
+          "champion_id": "Udyr",
+          "champion_name": "Udyr",
+          "style": "defensivo",
+          "tip": "Te gana el 1v1 sostenido: usa tu movilidad, no tu daño, contra él.",
+          "winrate_vs": 46.6
+        },
+        {
+          "champion_id": "Nunu",
+          "champion_name": "Nunu & Willump",
+          "style": "defensivo",
+          "tip": "Te robará campamentos con smite superior. Mantén el control de visión de tu jungla.",
+          "winrate_vs": 47.4
+        }
+      ]
+    },
+    "Sylas": {
+      "name": "Sylas",
+      "lane": "JG",
+      "winrate": 47.8,
+      "pickrate": 6.6,
+      "banrate": 8.3,
+      "stats_source": "sample",
+      "runes": {
+        "primary": [
+          {
+            "id": 8010,
+            "name": "Conquistador",
+            "icon": "perk-images/Styles/Precision/Conqueror/Conqueror.png"
+          },
+          {
+            "id": 9111,
+            "name": "Triunfo",
+            "icon": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "id": 9104,
+            "name": "Leyenda: Presteza",
+            "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "id": 8014,
+            "name": "Golpe de gracia",
+            "icon": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+          }
+        ],
+        "secondary": [
+          {
+            "id": 8226,
+            "name": "Banda de maná",
+            "icon": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "id": 8210,
+            "name": "Trascendencia",
+            "icon": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          }
+        ],
+        "note": "Conquistador + Sed de sangre maximiza la curación de W en peleas largas."
+      },
+      "build": {
+        "starting": [],
+        "core": [
+          {
+            "id": 3152,
+            "name": "Cintomisil hextech"
+          },
+          {
+            "id": 3157,
+            "name": "Reloj de arena de Zhonya"
+          },
+          {
+            "id": 4629,
+            "name": "Impulso cósmico"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3100,
+            "name": "Perdición del liche"
+          },
+          {
+            "id": 3102,
+            "name": "Velo del hada de la muerte"
+          },
+          {
+            "id": 3089,
+            "name": "Sombrero mortal de Rabadon"
+          }
+        ]
+      },
+      "combo": {
+        "keys": "E → E2 → W → Q → AA + R robada",
+        "description": "Entra con doble E, cura con W sobre el objetivo con poca vida y usa Q al salir. La regla de oro: decide la pelea con la ulti robada correcta."
+      },
+      "playstyle": "Jungla de pick: roba ultis de engage (Malphite, Amumu) para iniciar tú mismo, y usa tu curación para ganar skirmishes prolongados.",
+      "alt_builds": {
+        "vs_offensive": "Contra asesinos: Reloj de Zhonya en segundo ítem y Velo de banshee tercero.",
+        "vs_defensive": "Contra composiciones tanque: Tormento de Liandry primero y roba la ulti del tanque enemigo para iniciar."
+      },
+      "counters": [
+        {
+          "champion_id": "Poppy",
+          "champion_name": "Poppy",
+          "style": "defensivo",
+          "tip": "Su W frena tu E de engage. Fuérzala a gastarla antes de comprometerte.",
+          "winrate_vs": 44.2
+        },
+        {
+          "champion_id": "Khazix",
+          "champion_name": "Kha'Zix",
+          "style": "ofensivo",
+          "tip": "Te caza aislado en el río. Muévete con visión o con tu midlaner.",
+          "winrate_vs": 45.1
+        },
+        {
+          "champion_id": "Udyr",
+          "champion_name": "Udyr",
+          "style": "defensivo",
+          "tip": "Su ulti robada es mediocre para ti y te gana el farmeo. Busca picks en otras líneas.",
+          "winrate_vs": 48.2
+        }
+      ]
+    },
+    "Yorick": {
+      "name": "Yorick",
+      "lane": "MID",
+      "winrate": 52.6,
+      "pickrate": 5.6,
+      "banrate": 14.9,
+      "stats_source": "sample",
+      "runes": {
+        "primary": [
+          {
+            "id": 8437,
+            "name": "Garras del inmortal",
+            "icon": "perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png"
+          },
+          {
+            "id": 8446,
+            "name": "Demoler",
+            "icon": "perk-images/Styles/Resolve/Demolish/Demolish.png"
+          },
+          {
+            "id": 8444,
+            "name": "Fuerzas renovadas",
+            "icon": "perk-images/Styles/Resolve/SecondWind/SecondWind.png"
+          },
+          {
+            "id": 8451,
+            "name": "Sobrecrecimiento",
+            "icon": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png"
+          }
+        ],
+        "secondary": [
+          {
+            "id": 9111,
+            "name": "Triunfo",
+            "icon": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "id": 9104,
+            "name": "Leyenda: Presteza",
+            "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          }
+        ],
+        "note": "En mid, Ataque intensificado también funciona para intercambios cortos contra magos."
+      },
+      "build": {
+        "starting": [
+          {
+            "id": 1054,
+            "name": "Escudo de Doran"
+          },
+          {
+            "id": 2003,
+            "name": "Poción de vida"
+          }
+        ],
+        "core": [
+          {
+            "id": 3078,
+            "name": "Fuerza de trinidad"
+          },
+          {
+            "id": 3181,
+            "name": "Rompecascos"
+          },
+          {
+            "id": 3161,
+            "name": "Lanza de Shojin"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3053,
+            "name": "Calibrador de Sterak"
+          },
+          {
+            "id": 6333,
+            "name": "Baile de la muerte"
+          },
+          {
+            "id": 3071,
+            "name": "Cuchilla negra"
+          }
+        ]
+      },
+      "combo": {
+        "keys": "E(marca) → Q → invocar fantasmas → W(jaula) → R",
+        "description": "Marca con E para que la Niebla salte al objetivo, atrapa con W y deja que la Doncella + fantasmas hagan el trabajo mientras reduces su armadura."
+      },
+      "playstyle": "Splitpusher en mid: empuja oleadas más rápido que la mayoría de magos y fuerza al enemigo a elegir entre sus torres y las peleas.",
+      "alt_builds": {
+        "vs_offensive": "Contra asesinos (Akali): Coraza de hueso + Segundo aliento, y compra Colmillo de Sterak en segundo ítem.",
+        "vs_defensive": "Contra magos de scaling: Rompecascos temprano y castiga cada rotación empujando la línea contraria."
+      },
+      "counters": [
+        {
+          "champion_id": "Ahri",
+          "champion_name": "Ahri",
+          "style": "ofensivo",
+          "tip": "Su encanto rompe tu jaula mentalmente: entra a la W solo con fantasmas ya encima.",
+          "winrate_vs": 49.2
+        },
+        {
+          "champion_id": "Galio",
+          "champion_name": "Galio",
+          "style": "defensivo",
+          "tip": "Limpia tus fantasmas con AoE. Invoca la Doncella solo para peleas o splitpush.",
+          "winrate_vs": 48.7
+        },
+        {
+          "champion_id": "Akali",
+          "champion_name": "Akali",
+          "style": "ofensivo",
+          "tip": "Post-6 puede matarte dentro de tu propia jaula. Usa W defensivamente para bloquear su dash.",
+          "winrate_vs": 46.7
+        }
+      ]
+    },
+    "Aurora": {
+      "name": "Aurora",
+      "lane": "MID",
+      "winrate": 48.8,
+      "pickrate": 8.3,
+      "banrate": 13.1,
+      "stats_source": "sample",
+      "runes": {
+        "primary": [
+          {
+            "id": 8112,
+            "name": "Electrocutar",
+            "icon": "perk-images/Styles/Domination/Electrocute/Electrocute.png"
+          },
+          {
+            "id": 8143,
+            "name": "Impacto repentino",
+            "icon": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png"
+          },
+          {
+            "id": 8136,
+            "name": "Guardián zombi",
+            "icon": "perk-images/Styles/Domination/ZombieWard/ZombieWard.png"
+          },
+          {
+            "id": 8105,
+            "name": "Cazador incesante",
+            "icon": "perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png"
+          }
+        ],
+        "secondary": [
+          {
+            "id": 8226,
+            "name": "Banda de maná",
+            "icon": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "id": 8237,
+            "name": "Piroláser",
+            "icon": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
+          }
+        ],
+        "note": "Electrocutar para burst; Cometa arcano si el matchup es de puro poke."
+      },
+      "build": {
+        "starting": [
+          {
+            "id": 1056,
+            "name": "Anillo de Doran"
+          },
+          {
+            "id": 2003,
+            "name": "Poción de vida"
+          }
+        ],
+        "core": [
+          {
+            "id": 3118,
+            "name": "Malignidad"
+          },
+          {
+            "id": 4645,
+            "name": "Llamasombría"
+          },
+          {
+            "id": 3089,
+            "name": "Sombrero mortal de Rabadon"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3157,
+            "name": "Reloj de arena de Zhonya"
+          },
+          {
+            "id": 3135,
+            "name": "Bastón del Vacío"
+          },
+          {
+            "id": 3020,
+            "name": "Botas de hechicero"
+          }
+        ]
+      },
+      "combo": {
+        "keys": "E(retroceso) → Q → Q2 → W(invisible) → R(zona)",
+        "description": "Salta con E hacia atrás mientras dañas, detona el retorno de Q y usa W para reposicionarte. La R crea la zona donde tu equipo debe pelear."
+      },
+      "playstyle": "Maga de tempo: hostiga con Q-E, y en mid game usa R para cortar la retirada enemiga en peleas por objetivos.",
+      "alt_builds": {
+        "vs_offensive": "Contra asesinos (Fizz, Kassadin): Reloj de Zhonya en segundo ítem y respeta el nivel 6.",
+        "vs_defensive": "Contra tanques/control: Tormento de Liandry primero y Bastón del vacío tercero."
+      },
+      "counters": [
+        {
+          "champion_id": "Fizz",
+          "champion_name": "Fizz",
+          "style": "ofensivo",
+          "tip": "Su E esquiva tu burst completo. Guarda tu W para después de su salto.",
+          "winrate_vs": 47.9
+        },
+        {
+          "champion_id": "Kassadin",
+          "champion_name": "Kassadin",
+          "style": "ofensivo",
+          "tip": "Gana ventaja antes del nivel 11 o se vuelve inmatable. Empuja y rota.",
+          "winrate_vs": 47.2
+        },
+        {
+          "champion_id": "Galio",
+          "champion_name": "Galio",
+          "style": "defensivo",
+          "tip": "Su MR pasiva reduce tu poke. Farmea seguro y sé más útil en las rotaciones.",
+          "winrate_vs": 49.2
+        }
+      ]
+    },
+    "Hwei": {
+      "name": "Hwei",
+      "lane": "MID",
+      "winrate": 50.5,
+      "pickrate": 8.6,
+      "banrate": 9.9,
+      "stats_source": "sample",
+      "runes": {
+        "primary": [
+          {
+            "id": 8229,
+            "name": "Cometa arcano",
+            "icon": "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+          },
+          {
+            "id": 8226,
+            "name": "Banda de maná",
+            "icon": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "id": 8210,
+            "name": "Trascendencia",
+            "icon": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          },
+          {
+            "id": 8237,
+            "name": "Piroláser",
+            "icon": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
+          }
+        ],
+        "secondary": [
+          {
+            "id": 8345,
+            "name": "Entrega de galletas",
+            "icon": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
+          },
+          {
+            "id": 8347,
+            "name": "Perspicacia cósmica",
+            "icon": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "note": "Cometa arcano + Banda de flujo de maná es la página coreana estándar."
+      },
+      "build": {
+        "starting": [
+          {
+            "id": 1056,
+            "name": "Anillo de Doran"
+          },
+          {
+            "id": 2003,
+            "name": "Poción de vida"
+          }
+        ],
+        "core": [
+          {
+            "id": 3118,
+            "name": "Malignidad"
+          },
+          {
+            "id": 4628,
+            "name": "Precisión infalible"
+          },
+          {
+            "id": 6653,
+            "name": "Tormento de Liandry"
+          }
+        ],
+        "optional": [
+          {
+            "id": 4645,
+            "name": "Llamasombría"
+          },
+          {
+            "id": 3089,
+            "name": "Sombrero mortal de Rabadon"
+          },
+          {
+            "id": 3157,
+            "name": "Reloj de arena de Zhonya"
+          }
+        ]
+      },
+      "combo": {
+        "keys": "R → QW(zona) → QQ+EE follow-up",
+        "description": "Abre con R para marcar, coloca QW para el daño en área y encadena el stun de EE con las explosiones de QQ. En línea, poke seguro con QQ desde máxima distancia."
+      },
+      "playstyle": "Artillería de largo alcance: castiga las oleadas con QQ, guarda EE como seguro anti-gank y domina las peleas por dragón con zonas gigantes.",
+      "alt_builds": {
+        "vs_offensive": "Contra asesinos (Zed, Fizz): EE por delante en cada intercambio, Reloj de Zhonya en 2º ítem y runa Coraza de hueso.",
+        "vs_defensive": "Contra composiciones de frontline: Tormento de Liandry + Bastón del vacío y pelea solo desde máximo rango."
+      },
+      "counters": [
+        {
+          "champion_id": "Fizz",
+          "champion_name": "Fizz",
+          "style": "ofensivo",
+          "tip": "Guarda EE exclusivamente para su salto. Sin ese stun, estás muerto.",
+          "winrate_vs": 48.1
+        },
+        {
+          "champion_id": "Zed",
+          "champion_name": "Zed",
+          "style": "ofensivo",
+          "tip": "Post-6 puede matarte con sombras. Zhonya temprano o pídele el gank a tu jungla.",
+          "winrate_vs": 44.0
+        },
+        {
+          "champion_id": "Galio",
+          "champion_name": "Galio",
+          "style": "defensivo",
+          "tip": "Tanquea tu poke y te ganka con R. Avisa a tus líneas cuando desaparezca.",
+          "winrate_vs": 47.4
+        }
+      ]
+    },
+    "Jhin": {
+      "name": "Jhin",
+      "lane": "ADC",
+      "winrate": 50.3,
+      "pickrate": 5.5,
+      "banrate": 12.0,
+      "stats_source": "sample",
+      "runes": {
+        "primary": [
+          {
+            "id": 8021,
+            "name": "Pies veloces",
+            "icon": "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png"
+          },
+          {
+            "id": 9111,
+            "name": "Triunfo",
+            "icon": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "id": 9103,
+            "name": "Leyenda: Linaje",
+            "icon": "perk-images/Styles/Precision/LegendBloodline/LegendBloodline.png"
+          },
+          {
+            "id": 8014,
+            "name": "Golpe de gracia",
+            "icon": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+          }
+        ],
+        "secondary": [
+          {
+            "id": 8226,
+            "name": "Banda de maná",
+            "icon": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "id": 8236,
+            "name": "Se avecina tormenta",
+            "icon": "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png"
+          }
+        ],
+        "note": "Juego de pies domina en Corea; Cosecha oscura es la alternativa de snowball."
+      },
+      "build": {
+        "starting": [
+          {
+            "id": 1055,
+            "name": "Espada de Doran"
+          },
+          {
+            "id": 2003,
+            "name": "Poción de vida"
+          }
+        ],
+        "core": [
+          {
+            "id": 6676,
+            "name": "Recaudadora"
+          },
+          {
+            "id": 3094,
+            "name": "Cañón de fuego rápido"
+          },
+          {
+            "id": 3031,
+            "name": "Filo infinito"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3036,
+            "name": "Recuerdos de lord Dominik"
+          },
+          {
+            "id": 3072,
+            "name": "Sanguinaria"
+          },
+          {
+            "id": 3009,
+            "name": "Botas de rapidez"
+          }
+        ]
+      },
+      "combo": {
+        "keys": "W(root con marca aliada) → AA → E → 4ª bala",
+        "description": "Cualquier CC aliado o tu propio daño marca al rival: conecta W para el root, camina con la velocidad extra y reserva la 4ª bala (crítico garantizado) para ejecutar."
+      },
+      "playstyle": "Tirador de picks: no eres un ADC de DPS, eres un cañón de burst. Posiciónate para las 4ª balas y usa R para limpiar peleas ya ganadas.",
+      "alt_builds": {
+        "vs_offensive": "Contra engage (Samira, Draven): Botas de celeridad tempranas y juega detrás de tu soporte hasta el primer ítem.",
+        "vs_defensive": "Contra líneas pasivas: El coleccionista rush y busca roams con W a mid tras empujar."
+      },
+      "counters": [
+        {
+          "champion_id": "Draven",
+          "champion_name": "Draven",
+          "style": "ofensivo",
+          "tip": "Te gana todo intercambio de AA. Cede el empuje temprano y castiga con tu rango de W.",
+          "winrate_vs": 47.8
+        },
+        {
+          "champion_id": "Samira",
+          "champion_name": "Samira",
+          "style": "ofensivo",
+          "tip": "Su W bloquea tu ulti y tu W. Cuenta su enfriamiento antes de comprometerte.",
+          "winrate_vs": 49.0
+        },
+        {
+          "champion_id": "Sivir",
+          "champion_name": "Sivir",
+          "style": "defensivo",
+          "tip": "Su escudo come tu W. Rompe el escudo con un AA antes de lanzar el root.",
+          "winrate_vs": 48.5
+        }
+      ]
+    },
+    "Varus": {
+      "name": "Varus",
+      "lane": "ADC",
+      "winrate": 53.4,
+      "pickrate": 2.2,
+      "banrate": 1.7,
+      "stats_source": "sample",
+      "runes": {
+        "primary": [
+          {
+            "id": 8008,
+            "name": "Compás letal",
+            "icon": "perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png"
+          },
+          {
+            "id": 9111,
+            "name": "Triunfo",
+            "icon": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "id": 9104,
+            "name": "Leyenda: Presteza",
+            "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "id": 8014,
+            "name": "Golpe de gracia",
+            "icon": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+          }
+        ],
+        "secondary": [
+          {
+            "id": 8226,
+            "name": "Banda de maná",
+            "icon": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "id": 8236,
+            "name": "Se avecina tormenta",
+            "icon": "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png"
+          }
+        ],
+        "note": "Ritmo letal para on-hit; Cometa arcano si juegas la variante de poke con Q."
+      },
+      "build": {
+        "starting": [
+          {
+            "id": 1055,
+            "name": "Espada de Doran"
+          },
+          {
+            "id": 2003,
+            "name": "Poción de vida"
+          }
+        ],
+        "core": [
+          {
+            "id": 3124,
+            "name": "Hoja de furia de Guinsoo"
+          },
+          {
+            "id": 3302,
+            "name": "El final"
+          },
+          {
+            "id": 3153,
+            "name": "Hoja del rey arruinado"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3091,
+            "name": "Final del ingenio"
+          },
+          {
+            "id": 6672,
+            "name": "Verdugo de krakens"
+          },
+          {
+            "id": 3006,
+            "name": "Grebas de berserker"
+          }
+        ]
+      },
+      "combo": {
+        "keys": "AA x3 → W detonación con Q cargada → E → R(root)",
+        "description": "Apila 3 marcas de W con básicos y detónalas con Q cargada. En peleas, abre con R al que entre y encadena el slow de E."
+      },
+      "playstyle": "Flexible: poke con Q desde lejos o DPS on-hit según la build. La R convierte cualquier engage enemigo en una pelea a tu favor.",
+      "alt_builds": {
+        "vs_offensive": "Contra dive: on-hit con Fin del ingenio y usa R defensivamente sobre ti mismo.",
+        "vs_defensive": "Contra frontline pesada: variante poke (Manamune + Rencor de Serylda) y desgástalos antes de la pelea."
+      },
+      "counters": [
+        {
+          "champion_id": "Yasuo",
+          "champion_name": "Yasuo",
+          "style": "ofensivo",
+          "tip": "Su muro de viento anula Q, R y tus AA. Espera a que lo gaste o pelea en ángulo.",
+          "winrate_vs": 46.0
+        },
+        {
+          "champion_id": "Kaisa",
+          "champion_name": "Kai'Sa",
+          "style": "ofensivo",
+          "tip": "Escala mejor que tú: usa tu ventaja de rango en los primeros 15 minutos.",
+          "winrate_vs": 47.6
+        },
+        {
+          "champion_id": "Ziggs",
+          "champion_name": "Ziggs",
+          "style": "defensivo",
+          "tip": "Te gana el poke a larga distancia. Fuerza intercambios de AA donde tu on-hit gana.",
+          "winrate_vs": 45.5
+        }
+      ]
+    },
+    "Zeri": {
+      "name": "Zeri",
+      "lane": "ADC",
+      "winrate": 51.1,
+      "pickrate": 3.4,
+      "banrate": 10.2,
+      "stats_source": "sample",
+      "runes": {
+        "primary": [
+          {
+            "id": 8021,
+            "name": "Pies veloces",
+            "icon": "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png"
+          },
+          {
+            "id": 9111,
+            "name": "Triunfo",
+            "icon": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "id": 9104,
+            "name": "Leyenda: Presteza",
+            "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "id": 8017,
+            "name": "Derribado",
+            "icon": "perk-images/Styles/Precision/CutDown/CutDown.png"
+          }
+        ],
+        "secondary": [
+          {
+            "id": 8429,
+            "name": "Condicionamiento",
+            "icon": "perk-images/Styles/Resolve/Conditioning/Conditioning.png"
+          },
+          {
+            "id": 8451,
+            "name": "Sobrecrecimiento",
+            "icon": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png"
+          }
+        ],
+        "note": "Juego de pies + secundaria de Valor es la configuración coreana para sobrevivir el early."
+      },
+      "build": {
+        "starting": [
+          {
+            "id": 1055,
+            "name": "Espada de Doran"
+          },
+          {
+            "id": 2003,
+            "name": "Poción de vida"
+          }
+        ],
+        "core": [
+          {
+            "id": 3087,
+            "name": "Puñal de Statikk"
+          },
+          {
+            "id": 3085,
+            "name": "Huracán de Runaan"
+          },
+          {
+            "id": 3031,
+            "name": "Filo infinito"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3153,
+            "name": "Hoja del rey arruinado"
+          },
+          {
+            "id": 3036,
+            "name": "Recuerdos de lord Dominik"
+          },
+          {
+            "id": 3006,
+            "name": "Grebas de berserker"
+          }
+        ]
+      },
+      "combo": {
+        "keys": "Q constante (kiting) → E sobre muro → R → Q potenciadas",
+        "description": "Tu Q es tu ataque básico: kitea sin parar. Usa E a través de muros para entrar o salir, y tras R cada Q acumula velocidad de movimiento."
+      },
+      "playstyle": "Hípercarry de escalado: sobrevive la línea, llega a 2-3 ítems y conviértete en un misil imposible de atrapar en las peleas del minuto 25+.",
+      "alt_builds": {
+        "vs_offensive": "Contra engage fuerte (Nilah, Draven): inicia Escudo de Doran, Coraza de hueso y farmea a distancia con Q.",
+        "vs_defensive": "Contra poke: Filo de la ruina segundo para duelar en cuanto tengas dos ítems."
+      },
+      "counters": [
+        {
+          "champion_id": "Draven",
+          "champion_name": "Draven",
+          "style": "ofensivo",
+          "tip": "Te aplasta pre-6. Pide a tu soporte jugar defensivo y no pierdas farm bajo torre.",
+          "winrate_vs": 45.5
+        },
+        {
+          "champion_id": "Nilah",
+          "champion_name": "Nilah",
+          "style": "ofensivo",
+          "tip": "Su all-in con W esquiva tus Q. Kitea hacia tu equipo, nunca en línea recta.",
+          "winrate_vs": 46.7
+        },
+        {
+          "champion_id": "Ezreal",
+          "champion_name": "Ezreal",
+          "style": "defensivo",
+          "tip": "Línea aburrida de poke: esquiva las Q y gana por escalado natural.",
+          "winrate_vs": 48.2
+        }
+      ]
+    },
+    "Bard": {
+      "name": "Bardo",
+      "lane": "SUPP",
+      "winrate": 51.7,
+      "pickrate": 6.5,
+      "banrate": 10.1,
+      "stats_source": "sample",
+      "runes": {
+        "primary": [
+          {
+            "id": 8351,
+            "name": "Mejora glacial",
+            "icon": "perk-images/Styles/Inspiration/GlacialAugment/GlacialAugment.png"
+          },
+          {
+            "id": 8306,
+            "name": "Destello hextech",
+            "icon": "perk-images/Styles/Inspiration/HextechFlashtraption/HextechFlashtraption.png"
+          },
+          {
+            "id": 8345,
+            "name": "Entrega de galletas",
+            "icon": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
+          },
+          {
+            "id": 8347,
+            "name": "Perspicacia cósmica",
+            "icon": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "secondary": [
+          {
+            "id": 8226,
+            "name": "Banda de maná",
+            "icon": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "id": 8237,
+            "name": "Piroláser",
+            "icon": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
+          }
+        ],
+        "note": "Mejora glacial coreana estándar; Guardián si tu ADC necesita protección constante."
+      },
+      "build": {
+        "starting": [
+          {
+            "id": 3862,
+            "name": "Hoz espectral"
+          },
+          {
+            "id": 2003,
+            "name": "Poción de vida"
+          }
+        ],
+        "core": [
+          {
+            "id": 3190,
+            "name": "Medallón de los Solari de Hierro"
+          },
+          {
+            "id": 2065,
+            "name": "Canción de batalla de Shurelya"
+          },
+          {
+            "id": 3107,
+            "name": "Redención"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3109,
+            "name": "Promesa de caballero"
+          },
+          {
+            "id": 3050,
+            "name": "Convergencia de Zeke"
+          },
+          {
+            "id": 3009,
+            "name": "Botas de rapidez"
+          }
+        ]
+      },
+      "combo": {
+        "keys": "Q(stun contra muro) → AA con campanas → R en objetivos",
+        "description": "El Q aturde si conecta a un rival contra muro u otro campeón. Acumula campanas en tus roams y usa R para congelar torres, objetivos o ganar peleas 5v4."
+      },
+      "playstyle": "Soporte itinerante: tras empujar la oleada, roama constantemente. Tus portales crean ángulos de gank que ningún otro campeón puede.",
+      "alt_builds": {
+        "vs_offensive": "Contra engage (Nautilus, Leona): Relicario temprano y guarda Q para interrumpir su iniciación.",
+        "vs_defensive": "Contra enchanters: juega agresivo con AA de campanas y castiga con roams a mid."
+      },
+      "counters": [
+        {
+          "champion_id": "Nautilus",
+          "champion_name": "Nautilus",
+          "style": "ofensivo",
+          "tip": "Si te enganchan durante un roam llegando tarde, tu ADC muere. Cronometra tus rotaciones.",
+          "winrate_vs": 49.3
+        },
+        {
+          "champion_id": "Zyra",
+          "champion_name": "Zyra",
+          "style": "ofensivo",
+          "tip": "Te gana el 2v2 de línea con poke. Cede la línea y gana el mapa con roams.",
+          "winrate_vs": 44.8
+        },
+        {
+          "champion_id": "Taric",
+          "champion_name": "Taric",
+          "style": "defensivo",
+          "tip": "Su aturdimiento castiga tus AA agresivos. Hostiga solo desde fuera de su rango de E.",
+          "winrate_vs": 47.6
+        }
+      ]
+    },
+    "Neeko": {
+      "name": "Neeko",
+      "lane": "SUPP",
+      "winrate": 48.5,
+      "pickrate": 8.7,
+      "banrate": 14.9,
+      "stats_source": "sample",
+      "runes": {
+        "primary": [
+          {
+            "id": 8465,
+            "name": "Protector",
+            "icon": "perk-images/Styles/Resolve/Guardian/Guardian.png"
+          },
+          {
+            "id": 8446,
+            "name": "Demoler",
+            "icon": "perk-images/Styles/Resolve/Demolish/Demolish.png"
+          },
+          {
+            "id": 8444,
+            "name": "Fuerzas renovadas",
+            "icon": "perk-images/Styles/Resolve/SecondWind/SecondWind.png"
+          },
+          {
+            "id": 8451,
+            "name": "Sobrecrecimiento",
+            "icon": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png"
+          }
+        ],
+        "secondary": [
+          {
+            "id": 8226,
+            "name": "Banda de maná",
+            "icon": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "id": 8237,
+            "name": "Piroláser",
+            "icon": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
+          }
+        ],
+        "note": "Guardián para proteger; Cometa arcano si el matchup permite poke constante."
+      },
+      "build": {
+        "starting": [
+          {
+            "id": 3862,
+            "name": "Hoz espectral"
+          },
+          {
+            "id": 2003,
+            "name": "Poción de vida"
+          }
+        ],
+        "core": [
+          {
+            "id": 3157,
+            "name": "Reloj de arena de Zhonya"
+          },
+          {
+            "id": 3116,
+            "name": "Cetro de cristal de Rylai"
+          },
+          {
+            "id": 6653,
+            "name": "Tormento de Liandry"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3152,
+            "name": "Cintomisil hextech"
+          },
+          {
+            "id": 3089,
+            "name": "Sombrero mortal de Rabadon"
+          },
+          {
+            "id": 3041,
+            "name": "Robaalmas de Mejai"
+          }
+        ]
+      },
+      "combo": {
+        "keys": "W(clon) → E(root) → Q → R (con pasiva de disfraz)",
+        "description": "Engaña con el clon o el disfraz, conecta la raíz de E potenciada y encadena Q. La R desde disfraz (planta, súbdito) es la iniciación sorpresa definitiva."
+      },
+      "playstyle": "Soporte de engaño: tu valor está en la información falsa. Disfrázate en cada pelea importante y flanquea con R.",
+      "alt_builds": {
+        "vs_offensive": "Contra hooks (Blitzcrank): quédate detrás de súbditos y usa el clon para 'comerte' el gancho.",
+        "vs_defensive": "Contra soportes pasivos: Tormento de Liandry y poke con Q en cada enfriamiento."
+      },
+      "counters": [
+        {
+          "champion_id": "Blitzcrank",
+          "champion_name": "Blitzcrank",
+          "style": "ofensivo",
+          "tip": "Un gancho acertado te elimina. Envía el clon por delante para provocarlo.",
+          "winrate_vs": 46.5
+        },
+        {
+          "champion_id": "Alistar",
+          "champion_name": "Alistar",
+          "style": "ofensivo",
+          "tip": "Su combo WQ ignora tu engaño. Mantén la raíz E para su entrada.",
+          "winrate_vs": 44.3
+        },
+        {
+          "champion_id": "Braum",
+          "champion_name": "Braum",
+          "style": "defensivo",
+          "tip": "Su escudo bloquea tu Q y tu R en área. Ataca por el ángulo opuesto a su E.",
+          "winrate_vs": 44.5
+        }
+      ]
+    },
+    "Pyke": {
+      "name": "Pyke",
+      "lane": "SUPP",
+      "winrate": 50.8,
+      "pickrate": 9.2,
+      "banrate": 7.7,
+      "stats_source": "sample",
+      "runes": {
+        "primary": [
+          {
+            "id": 9923,
+            "name": "Lluvia de cuchillas",
+            "icon": "perk-images/Styles/Domination/HailOfBlades/HailOfBlades.png"
+          },
+          {
+            "id": 8143,
+            "name": "Impacto repentino",
+            "icon": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png"
+          },
+          {
+            "id": 8136,
+            "name": "Guardián zombi",
+            "icon": "perk-images/Styles/Domination/ZombieWard/ZombieWard.png"
+          },
+          {
+            "id": 8105,
+            "name": "Cazador incesante",
+            "icon": "perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png"
+          }
+        ],
+        "secondary": [
+          {
+            "id": 8347,
+            "name": "Perspicacia cósmica",
+            "icon": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          },
+          {
+            "id": 8304,
+            "name": "Calzado mágico",
+            "icon": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png"
+          }
+        ],
+        "note": "Lluvia de espadas estándar en Corea para el burst de nivel 2."
+      },
+      "build": {
+        "starting": [
+          {
+            "id": 3862,
+            "name": "Hoz espectral"
+          },
+          {
+            "id": 2003,
+            "name": "Poción de vida"
+          }
+        ],
+        "core": [
+          {
+            "id": 3179,
+            "name": "Guja sombría"
+          },
+          {
+            "id": 3142,
+            "name": "Filo fantasmal de Youmuu"
+          },
+          {
+            "id": 3814,
+            "name": "Filo de la noche"
+          }
+        ],
+        "optional": [
+          {
+            "id": 6696,
+            "name": "Arco axiomático"
+          },
+          {
+            "id": 4643,
+            "name": "Piedra de visión vigilante"
+          },
+          {
+            "id": 3009,
+            "name": "Botas de rapidez"
+          }
+        ]
+      },
+      "combo": {
+        "keys": "Q(gancho) → E(stun) → AA → R(ejecución, resetea)",
+        "description": "Gancho cargado, pasa a través con E para aturdir y ejecuta con R en el umbral (la R resetea al matar: encadena ejecuciones en peleas)."
+      },
+      "playstyle": "Soporte asesino: tu pasiva regenera el daño recibido fuera de visión. Roama tras empujar y convierte cada kill en oro compartido con tu R.",
+      "alt_builds": {
+        "vs_offensive": "Contra engage (Leona): juega segunda línea, deja que inicien y castiga con E + R sobre su ADC.",
+        "vs_defensive": "Contra enchanters/curación (Soraka): ejecuta con R para ignorar las curaciones y compra antiheal temprano."
+      },
+      "counters": [
+        {
+          "champion_id": "Leona",
+          "champion_name": "Leona",
+          "style": "ofensivo",
+          "tip": "Si te CCea primero, mueres antes de poder usar la pasiva. No ganchees de frente.",
+          "winrate_vs": 45.1
+        },
+        {
+          "champion_id": "Soraka",
+          "champion_name": "Soraka",
+          "style": "defensivo",
+          "tip": "Sus curaciones anulan tu poke, pero no tu R: fuerza all-ins con ejecución.",
+          "winrate_vs": 48.6
+        },
+        {
+          "champion_id": "Braum",
+          "champion_name": "Braum",
+          "style": "defensivo",
+          "tip": "Bloquea tu gancho con E y su pasiva castiga tu all-in. Roama a otras líneas.",
+          "winrate_vs": 46.4
+        }
+      ]
+    },
+    "Camille": {
+      "name": "Camille",
+      "lane": "SUPP",
+      "winrate": 50.2,
+      "pickrate": 7.8,
+      "banrate": 11.8,
+      "stats_source": "sample",
+      "runes": {
+        "primary": [
+          {
+            "id": 8439,
+            "name": "Reverberacción",
+            "icon": "perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png"
+          },
+          {
+            "id": 8446,
+            "name": "Demoler",
+            "icon": "perk-images/Styles/Resolve/Demolish/Demolish.png"
+          },
+          {
+            "id": 8444,
+            "name": "Fuerzas renovadas",
+            "icon": "perk-images/Styles/Resolve/SecondWind/SecondWind.png"
+          },
+          {
+            "id": 8451,
+            "name": "Sobrecrecimiento",
+            "icon": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png"
+          }
+        ],
+        "secondary": [
+          {
+            "id": 8306,
+            "name": "Destello hextech",
+            "icon": "perk-images/Styles/Inspiration/HextechFlashtraption/HextechFlashtraption.png"
+          },
+          {
+            "id": 8347,
+            "name": "Perspicacia cósmica",
+            "icon": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "note": "Sacudida con Flashtracción hextech + Perspicacia cósmica es la página de Camille soporte en Corea."
+      },
+      "build": {
+        "starting": [
+          {
+            "id": 3862,
+            "name": "Hoz espectral"
+          },
+          {
+            "id": 2003,
+            "name": "Poción de vida"
+          }
+        ],
+        "core": [
+          {
+            "id": 3071,
+            "name": "Cuchilla negra"
+          },
+          {
+            "id": 3053,
+            "name": "Calibrador de Sterak"
+          },
+          {
+            "id": 3109,
+            "name": "Promesa de caballero"
+          }
+        ],
+        "optional": [
+          {
+            "id": 3107,
+            "name": "Redención"
+          },
+          {
+            "id": 3050,
+            "name": "Convergencia de Zeke"
+          },
+          {
+            "id": 3009,
+            "name": "Botas de rapidez"
+          }
+        ]
+      },
+      "combo": {
+        "keys": "E(muro) → E2 → W → Q → Q2(daño true) → R",
+        "description": "Engancha al muro con E, aturde con el segundo dash, y separa el doble Q para que el segundo pegue daño verdadero. La R aísla al carry enemigo en tu zona."
+      },
+      "playstyle": "Soporte de pick y dive: tu valor es el CC de E y la jaula de R sobre el carry rival. Roama con visión y castiga posicionamientos adelantados; deja el farm a tu ADC.",
+      "alt_builds": {
+        "vs_offensive": "Contra engage (Leona, Nautilus): juega segunda línea, guarda E para contra-iniciar y compra Redención temprano.",
+        "vs_defensive": "Contra enchanters pasivos: E agresiva de nivel 2-3 y snowballea la línea antes de que escalen sus escudos."
+      },
+      "counters": [
+        {
+          "champion_id": "Morgana",
+          "champion_name": "Morgana",
+          "style": "defensivo",
+          "tip": "Su escudo negro anula el stun de tu E y tu R pierde valor. Fuérzala a gastarlo con amagues.",
+          "winrate_vs": 47.7
+        },
+        {
+          "champion_id": "Zyra",
+          "champion_name": "Zyra",
+          "style": "ofensivo",
+          "tip": "Te desgasta a rango y sus plantas revelan tus flancos. Entra solo con su root en enfriamiento.",
+          "winrate_vs": 44.0
+        },
+        {
+          "champion_id": "Braum",
+          "champion_name": "Braum",
+          "style": "defensivo",
+          "tip": "Bloquea tu engage con muro y pasiva. Salta directamente sobre el ADC, nunca a través de él.",
+          "winrate_vs": 46.9
+        }
+      ]
+    }
+  }
+}
