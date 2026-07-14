@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T11:13:17.999541+00:00",
+  "updated_at": "2026-07-14T16:52:22.530315+00:00",
   "region": "kr",
   "patch": "16.13.1",
   "ddragon_version": "16.13.1",
@@ -35,10 +35,10 @@
     "KSante": {
       "name": "K'Sante",
       "lane": "TOP",
-      "winrate": 50.2,
-      "pickrate": 2.2,
-      "banrate": 12.8,
-      "stats_source": "sample",
+      "winrate": 47.2,
+      "pickrate": 4.0,
+      "banrate": null,
+      "stats_source": "web_research_16.13",
       "runes": {
         "primary": [
           {
@@ -131,41 +131,64 @@
       },
       "counters": [
         {
-          "champion_id": "Fiora",
-          "champion_name": "Fiora",
+          "champion_id": "ChoGath",
+          "champion_name": "Cho'Gath",
           "style": "ofensivo",
-          "tip": "Su W bloquea tu W y tu 3er Q. Intercambia solo cuando su W esté en enfriamiento.",
-          "winrate_vs": 44.8
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 52.5
         },
         {
-          "champion_id": "Gwen",
-          "champion_name": "Gwen",
-          "style": "ofensivo",
-          "tip": "Te destroza con daño % de vida. Pide ayuda del jungla y no le des intercambios largos.",
-          "winrate_vs": 47.3
-        },
-        {
-          "champion_id": "Ornn",
-          "champion_name": "Ornn",
+          "champion_id": "Volibear",
+          "champion_name": "Volibear",
           "style": "defensivo",
-          "tip": "Línea pasiva: apila Demoler, gana prioridad y rota antes que él.",
-          "winrate_vs": 46.1
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 53.3
+        },
+        {
+          "champion_id": "Trundle",
+          "champion_name": "Trundle",
+          "style": "ofensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 51.8
+        },
+        {
+          "champion_id": "Kayle",
+          "champion_name": "Kayle",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 45.3
+        },
+        {
+          "champion_id": "Singed",
+          "champion_name": "Singed",
+          "style": "defensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 44.4
+        },
+        {
+          "champion_id": "Kennen",
+          "champion_name": "Kennen",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 45.1
         }
-      ]
+      ],
+      "tier": "B",
+      "tips": []
     },
     "Jayce": {
       "name": "Jayce",
       "lane": "TOP",
-      "winrate": 47.8,
-      "pickrate": 11.4,
-      "banrate": 12.9,
-      "stats_source": "sample",
+      "winrate": 48.7,
+      "pickrate": 5.7,
+      "banrate": null,
+      "stats_source": "web_research_16.13",
       "runes": {
         "primary": [
           {
-            "id": 8010,
-            "name": "Conquistador",
-            "icon": "perk-images/Styles/Precision/Conqueror/Conqueror.png"
+            "id": 8230,
+            "name": "Tensión del saqueador de tormentas",
+            "icon": "perk-images/Styles/Sorcery/PhaseRush/StormraidersSurgeRuneIcon2.png"
           },
           {
             "id": 9111,
@@ -195,7 +218,7 @@
             "icon": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
           }
         ],
-        "note": "Conquistador es lo más jugado; Primer golpe es alternativa para partidas de puro poke."
+        "note": "Irrupción de fase (Phase Rush) es la keystone más jugada en alta elo (24%); Conquistador es alternativa para partidas de intercambios prolongados."
       },
       "build": {
         "starting": [
@@ -248,71 +271,94 @@
       },
       "counters": [
         {
-          "champion_id": "Malphite",
-          "champion_name": "Malphite",
-          "style": "defensivo",
-          "tip": "Escala armadura y anula tu daño. Presiona antes del nivel 6 o pierde relevancia.",
-          "winrate_vs": 48.6
+          "champion_id": "Volibear",
+          "champion_name": "Volibear",
+          "style": "ofensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 54.7
         },
         {
-          "champion_id": "Irelia",
-          "champion_name": "Irelia",
+          "champion_id": "Gwen",
+          "champion_name": "Gwen",
+          "style": "defensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 56.1
+        },
+        {
+          "champion_id": "Vayne",
+          "champion_name": "Vayne",
           "style": "ofensivo",
-          "tip": "Si te alcanza, mueres. Mantén la oleada lejos de ella y usa E de martillo como seguro.",
-          "winrate_vs": 46.0
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 55.9
         },
         {
           "champion_id": "Ornn",
           "champion_name": "Ornn",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 44.3
+        },
+        {
+          "champion_id": "Poppy",
+          "champion_name": "Poppy",
           "style": "defensivo",
-          "tip": "Poke gratis en línea, pero respeta su all-in con brittle a partir de nivel 6.",
-          "winrate_vs": 45.3
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 43.8
+        },
+        {
+          "champion_id": "DrMundo",
+          "champion_name": "Dr. Mundo",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 46.7
         }
-      ]
+      ],
+      "tier": "A",
+      "tips": []
     },
     "Ambessa": {
       "name": "Ambessa",
       "lane": "TOP",
-      "winrate": 48.6,
-      "pickrate": 11.7,
-      "banrate": 5.0,
-      "stats_source": "sample",
+      "winrate": 48.9,
+      "pickrate": 3.7,
+      "banrate": null,
+      "stats_source": "web_research_16.13",
       "runes": {
         "primary": [
           {
-            "id": 8010,
-            "name": "Conquistador",
-            "icon": "perk-images/Styles/Precision/Conqueror/Conqueror.png"
+            "id": 8437,
+            "name": "Garras del inmortal",
+            "icon": "perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png"
           },
           {
-            "id": 9111,
-            "name": "Triunfo",
-            "icon": "perk-images/Styles/Precision/Triumph.png"
+            "id": 8401,
+            "name": "Golpe de escudo",
+            "icon": "perk-images/Styles/Resolve/MirrorShell/MirrorShell.png"
           },
-          {
-            "id": 9104,
-            "name": "Leyenda: Presteza",
-            "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
-          },
-          {
-            "id": 8014,
-            "name": "Golpe de gracia",
-            "icon": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
-          }
-        ],
-        "secondary": [
           {
             "id": 8444,
             "name": "Fuerzas renovadas",
             "icon": "perk-images/Styles/Resolve/SecondWind/SecondWind.png"
           },
           {
-            "id": 8473,
-            "name": "Revestimiento de huesos",
-            "icon": "perk-images/Styles/Resolve/BonePlating/BonePlating.png"
+            "id": 8451,
+            "name": "Sobrecrecimiento",
+            "icon": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png"
           }
         ],
-        "note": "Conquistador con secundaria de Valor (Segundo aliento + Coraza de hueso) es el estándar KR."
+        "secondary": [
+          {
+            "id": 8345,
+            "name": "Entrega de galletas",
+            "icon": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
+          },
+          {
+            "id": 8304,
+            "name": "Calzado mágico",
+            "icon": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png"
+          }
+        ],
+        "note": "Garras del inmortal + Entrega de galletas/Calzado mágico es la página real más usada en Corea (patch 16.13, fuente: Mobalytics)."
       },
       "build": {
         "starting": [
@@ -331,12 +377,12 @@
             "name": "Eclipse"
           },
           {
-            "id": 3071,
-            "name": "Cuchilla negra"
+            "id": 3047,
+            "name": "Botas blindadas"
           },
           {
-            "id": 3053,
-            "name": "Calibrador de Sterak"
+            "id": 3161,
+            "name": "Lanza de Shojin"
           }
         ],
         "optional": [
@@ -365,35 +411,58 @@
       },
       "counters": [
         {
-          "champion_id": "Fiora",
-          "champion_name": "Fiora",
+          "champion_id": "DrMundo",
+          "champion_name": "Dr. Mundo",
           "style": "ofensivo",
-          "tip": "Su riposte castiga tu W predecible. Usa W solo para bloquear el stun de su propia W.",
-          "winrate_vs": 47.3
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 55.0
         },
         {
-          "champion_id": "Malphite",
-          "champion_name": "Malphite",
+          "champion_id": "Locke",
+          "champion_name": "Locke",
           "style": "defensivo",
-          "tip": "Apila armadura y anula tu daño físico. Gana antes del nivel 9 o rota a peleas.",
-          "winrate_vs": 44.5
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 56.5
         },
         {
-          "champion_id": "Gwen",
-          "champion_name": "Gwen",
+          "champion_id": "Trundle",
+          "champion_name": "Trundle",
           "style": "ofensivo",
-          "tip": "Su niebla ignora tu all-in y te gana peleas largas. Intercambia corto y sal.",
-          "winrate_vs": 46.3
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 57.0
+        },
+        {
+          "champion_id": "Warwick",
+          "champion_name": "Warwick",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 43.9
+        },
+        {
+          "champion_id": "Irelia",
+          "champion_name": "Irelia",
+          "style": "defensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 47.0
+        },
+        {
+          "champion_id": "Camille",
+          "champion_name": "Camille",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 47.5
         }
-      ]
+      ],
+      "tier": "A",
+      "tips": []
     },
     "Graves": {
       "name": "Graves",
       "lane": "JG",
-      "winrate": 48.9,
-      "pickrate": 8.1,
-      "banrate": 14.0,
-      "stats_source": "sample",
+      "winrate": 49.9,
+      "pickrate": 10.7,
+      "banrate": null,
+      "stats_source": "web_research_16.13",
       "runes": {
         "primary": [
           {
@@ -473,35 +542,68 @@
       },
       "counters": [
         {
-          "champion_id": "Rammus",
-          "champion_name": "Rammus",
-          "style": "defensivo",
-          "tip": "Su armadura y taunt anulan tus AA. Juega por los carries, no por él.",
-          "winrate_vs": 44.2
-        },
-        {
-          "champion_id": "Poppy",
-          "champion_name": "Poppy",
-          "style": "defensivo",
-          "tip": "Su W cancela tu E. Guarda el dash hasta que gaste la habilidad.",
-          "winrate_vs": 47.7
-        },
-        {
-          "champion_id": "Elise",
-          "champion_name": "Elise",
+          "champion_id": "Locke",
+          "champion_name": "Locke",
           "style": "ofensivo",
-          "tip": "Fuerte early: cuida tus primeros campamentos y pídele visión a tu equipo.",
-          "winrate_vs": 48.3
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 54.0
+        },
+        {
+          "champion_id": "Zed",
+          "champion_name": "Zed",
+          "style": "defensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 51.6
+        },
+        {
+          "champion_id": "Shaco",
+          "champion_name": "Shaco",
+          "style": "ofensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 55.9
+        },
+        {
+          "champion_id": "Zyra",
+          "champion_name": "Zyra",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 47.4
+        },
+        {
+          "champion_id": "Belveth",
+          "champion_name": "Bel'Veth",
+          "style": "defensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 46.7
+        },
+        {
+          "champion_id": "Nidalee",
+          "champion_name": "Nidalee",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 46.2
+        }
+      ],
+      "tier": "S",
+      "tips": [],
+      "jungle_paths": [
+        {
+          "title": "Full clear estándar",
+          "description": "Rana → Enano → Lobos → Elder (si no hay riesgo) → Krugs, guardando smite para robos. Prioriza rango de AA para limpiar rápido."
+        },
+        {
+          "title": "Invade agresiva",
+          "description": "Empieza en el lado del rival si tu equipo tiene buen control de visión previo; castiga jungla enemiga antes de tu propio clear."
         }
       ]
     },
     "LeeSin": {
       "name": "Lee Sin",
       "lane": "JG",
-      "winrate": 53.1,
-      "pickrate": 5.8,
-      "banrate": 5.1,
-      "stats_source": "sample",
+      "winrate": 49.2,
+      "pickrate": 13.0,
+      "banrate": null,
+      "stats_source": "web_research_16.13",
       "runes": {
         "primary": [
           {
@@ -581,35 +683,68 @@
       },
       "counters": [
         {
-          "champion_id": "Rammus",
-          "champion_name": "Rammus",
-          "style": "defensivo",
-          "tip": "No puedes matarlo y su post-6 te ganka mejor. Juega en el lado opuesto del mapa.",
-          "winrate_vs": 45.2
+          "champion_id": "Locke",
+          "champion_name": "Locke",
+          "style": "ofensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 53.0
         },
         {
-          "champion_id": "Udyr",
-          "champion_name": "Udyr",
+          "champion_id": "Zed",
+          "champion_name": "Zed",
           "style": "defensivo",
-          "tip": "Te gana el 1v1 sostenido: usa tu movilidad, no tu daño, contra él.",
-          "winrate_vs": 46.6
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 52.4
         },
         {
-          "champion_id": "Nunu",
-          "champion_name": "Nunu & Willump",
+          "champion_id": "Jax",
+          "champion_name": "Jax",
+          "style": "ofensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 52.1
+        },
+        {
+          "champion_id": "Aatrox",
+          "champion_name": "Aatrox",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 48.3
+        },
+        {
+          "champion_id": "Nasus",
+          "champion_name": "Nasus",
           "style": "defensivo",
-          "tip": "Te robará campamentos con smite superior. Mantén el control de visión de tu jungla.",
-          "winrate_vs": 47.4
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 45.6
+        },
+        {
+          "champion_id": "Skarner",
+          "champion_name": "Skarner",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 46.7
+        }
+      ],
+      "tier": "A",
+      "tips": [],
+      "jungle_paths": [
+        {
+          "title": "Gank temprano (nivel 2-3)",
+          "description": "Rana → gank de nivel 3 en la línea con mejor setup de CC aliado, usando Q para el poke inicial."
+        },
+        {
+          "title": "Full clear si no hay gank",
+          "description": "Enano → Lobos → Rana → Krugs; mantén el smite listo para el Heraldo o para robar campamentos rivales."
         }
       ]
     },
     "Sylas": {
       "name": "Sylas",
       "lane": "JG",
-      "winrate": 47.8,
-      "pickrate": 6.6,
-      "banrate": 8.3,
-      "stats_source": "sample",
+      "winrate": 52.0,
+      "pickrate": 8.6,
+      "banrate": null,
+      "stats_source": "web_research_16.13",
       "runes": {
         "primary": [
           {
@@ -689,35 +824,64 @@
       },
       "counters": [
         {
-          "champion_id": "Poppy",
-          "champion_name": "Poppy",
-          "style": "defensivo",
-          "tip": "Su W frena tu E de engage. Fuérzala a gastarla antes de comprometerte.",
-          "winrate_vs": 44.2
-        },
-        {
-          "champion_id": "Khazix",
-          "champion_name": "Kha'Zix",
+          "champion_id": "Shyvana",
+          "champion_name": "Shyvana",
           "style": "ofensivo",
-          "tip": "Te caza aislado en el río. Muévete con visión o con tu midlaner.",
-          "winrate_vs": 45.1
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 52.6
         },
         {
-          "champion_id": "Udyr",
-          "champion_name": "Udyr",
+          "champion_id": "Locke",
+          "champion_name": "Locke",
           "style": "defensivo",
-          "tip": "Su ulti robada es mediocre para ti y te gana el farmeo. Busca picks en otras líneas.",
-          "winrate_vs": 48.2
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 52.5
+        },
+        {
+          "champion_id": "Zed",
+          "champion_name": "Zed",
+          "style": "ofensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 52.6
+        },
+        {
+          "champion_id": "Belveth",
+          "champion_name": "Bel'Veth",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 45.8
+        },
+        {
+          "champion_id": "Briar",
+          "champion_name": "Briar",
+          "style": "defensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 47.2
+        },
+        {
+          "champion_id": "Elise",
+          "champion_name": "Elise",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 45.8
+        }
+      ],
+      "tier": "S",
+      "tips": [],
+      "jungle_paths": [
+        {
+          "title": "Clear + pick post-6",
+          "description": "Prioriza terminar el clear rápido con W para sustain, y busca tu primera pelea recién con la ulti disponible para robar un engage."
         }
       ]
     },
     "Yorick": {
       "name": "Yorick",
       "lane": "MID",
-      "winrate": 52.6,
-      "pickrate": 5.6,
-      "banrate": 14.9,
-      "stats_source": "sample",
+      "winrate": 49.9,
+      "pickrate": 3.7,
+      "banrate": null,
+      "stats_source": "web_research_16.13",
       "runes": {
         "primary": [
           {
@@ -806,35 +970,58 @@
       },
       "counters": [
         {
-          "champion_id": "Ahri",
-          "champion_name": "Ahri",
+          "champion_id": "Vayne",
+          "champion_name": "Vayne",
           "style": "ofensivo",
-          "tip": "Su encanto rompe tu jaula mentalmente: entra a la W solo con fantasmas ya encima.",
-          "winrate_vs": 49.2
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 56.0
         },
         {
-          "champion_id": "Galio",
-          "champion_name": "Galio",
+          "champion_id": "Vladimir",
+          "champion_name": "Vladimir",
           "style": "defensivo",
-          "tip": "Limpia tus fantasmas con AoE. Invoca la Doncella solo para peleas o splitpush.",
-          "winrate_vs": 48.7
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 56.3
         },
         {
-          "champion_id": "Akali",
-          "champion_name": "Akali",
+          "champion_id": "TahmKench",
+          "champion_name": "Tahm Kench",
           "style": "ofensivo",
-          "tip": "Post-6 puede matarte dentro de tu propia jaula. Usa W defensivamente para bloquear su dash.",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 51.5
+        },
+        {
+          "champion_id": "Warwick",
+          "champion_name": "Warwick",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
           "winrate_vs": 46.7
+        },
+        {
+          "champion_id": "Yone",
+          "champion_name": "Yone",
+          "style": "defensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 47.7
+        },
+        {
+          "champion_id": "Kayle",
+          "champion_name": "Kayle",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 44.0
         }
-      ]
+      ],
+      "tier": "A",
+      "tips": []
     },
     "Aurora": {
       "name": "Aurora",
       "lane": "MID",
-      "winrate": 48.8,
-      "pickrate": 8.3,
-      "banrate": 13.1,
-      "stats_source": "sample",
+      "winrate": 49.3,
+      "pickrate": 2.5,
+      "banrate": null,
+      "stats_source": "web_research_16.13",
       "runes": {
         "primary": [
           {
@@ -843,19 +1030,19 @@
             "icon": "perk-images/Styles/Domination/Electrocute/Electrocute.png"
           },
           {
-            "id": 8143,
-            "name": "Impacto repentino",
-            "icon": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png"
+            "id": 8139,
+            "name": "Sabor a sangre",
+            "icon": "perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png"
           },
           {
-            "id": 8136,
-            "name": "Guardián zombi",
-            "icon": "perk-images/Styles/Domination/ZombieWard/ZombieWard.png"
+            "id": 8138,
+            "name": "Recuerdos macabros",
+            "icon": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png"
           },
           {
-            "id": 8105,
-            "name": "Cazador incesante",
-            "icon": "perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png"
+            "id": 8106,
+            "name": "Cazador definitivo",
+            "icon": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png"
           }
         ],
         "secondary": [
@@ -865,12 +1052,12 @@
             "icon": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
           },
           {
-            "id": 8237,
-            "name": "Piroláser",
-            "icon": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
+            "id": 8210,
+            "name": "Trascendencia",
+            "icon": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
           }
         ],
-        "note": "Electrocutar para burst; Cometa arcano si el matchup es de puro poke."
+        "note": "Electrocutar + Recuerdos macabros/Sabor a sangre es la página real más usada en Corea (patch 16.13, fuente: Mobalytics)."
       },
       "build": {
         "starting": [
@@ -885,30 +1072,30 @@
         ],
         "core": [
           {
-            "id": 3118,
-            "name": "Malignidad"
+            "id": 3152,
+            "name": "Cintomisil hextech"
+          },
+          {
+            "id": 3020,
+            "name": "Botas de hechicero"
           },
           {
             "id": 4645,
             "name": "Llamasombría"
-          },
-          {
-            "id": 3089,
-            "name": "Sombrero mortal de Rabadon"
           }
         ],
         "optional": [
           {
-            "id": 3157,
-            "name": "Reloj de arena de Zhonya"
+            "id": 3089,
+            "name": "Sombrero mortal de Rabadon"
           },
           {
             "id": 3135,
             "name": "Bastón del Vacío"
           },
           {
-            "id": 3020,
-            "name": "Botas de hechicero"
+            "id": 3157,
+            "name": "Reloj de arena de Zhonya"
           }
         ]
       },
@@ -923,35 +1110,58 @@
       },
       "counters": [
         {
-          "champion_id": "Fizz",
-          "champion_name": "Fizz",
+          "champion_id": "Orianna",
+          "champion_name": "Orianna",
           "style": "ofensivo",
-          "tip": "Su E esquiva tu burst completo. Guarda tu W para después de su salto.",
-          "winrate_vs": 47.9
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 51.8
         },
         {
-          "champion_id": "Kassadin",
-          "champion_name": "Kassadin",
-          "style": "ofensivo",
-          "tip": "Gana ventaja antes del nivel 11 o se vuelve inmatable. Empuja y rota.",
-          "winrate_vs": 47.2
-        },
-        {
-          "champion_id": "Galio",
-          "champion_name": "Galio",
+          "champion_id": "Mel",
+          "champion_name": "Mel",
           "style": "defensivo",
-          "tip": "Su MR pasiva reduce tu poke. Farmea seguro y sé más útil en las rotaciones.",
-          "winrate_vs": 49.2
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 54.5
+        },
+        {
+          "champion_id": "Yone",
+          "champion_name": "Yone",
+          "style": "ofensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 52.3
+        },
+        {
+          "champion_id": "Talon",
+          "champion_name": "Talon",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 45.2
+        },
+        {
+          "champion_id": "Zed",
+          "champion_name": "Zed",
+          "style": "defensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 44.6
+        },
+        {
+          "champion_id": "Hwei",
+          "champion_name": "Hwei",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 47.4
         }
-      ]
+      ],
+      "tier": "B",
+      "tips": []
     },
     "Hwei": {
       "name": "Hwei",
       "lane": "MID",
-      "winrate": 50.5,
-      "pickrate": 8.6,
-      "banrate": 9.9,
-      "stats_source": "sample",
+      "winrate": 52.2,
+      "pickrate": 4.0,
+      "banrate": null,
+      "stats_source": "web_research_16.13",
       "runes": {
         "primary": [
           {
@@ -977,17 +1187,17 @@
         ],
         "secondary": [
           {
-            "id": 8345,
-            "name": "Entrega de galletas",
-            "icon": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
+            "id": 8017,
+            "name": "Derribado",
+            "icon": "perk-images/Styles/Precision/CutDown/CutDown.png"
           },
           {
-            "id": 8347,
-            "name": "Perspicacia cósmica",
-            "icon": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+            "id": 9105,
+            "name": "Leyenda: Velocidad",
+            "icon": "perk-images/Styles/Precision/LegendHaste/LegendHaste.png"
           }
         ],
-        "note": "Cometa arcano + Banda de flujo de maná es la página coreana estándar."
+        "note": "Cometa arcano + Banda de flujo de maná es la página real más usada en Corea (patch 16.13, fuente: Mobalytics)."
       },
       "build": {
         "starting": [
@@ -1002,26 +1212,26 @@
         ],
         "core": [
           {
-            "id": 3118,
-            "name": "Malignidad"
-          },
-          {
-            "id": 4628,
-            "name": "Precisión infalible"
-          },
-          {
             "id": 6653,
             "name": "Tormento de Liandry"
+          },
+          {
+            "id": 3020,
+            "name": "Botas de hechicero"
+          },
+          {
+            "id": 4645,
+            "name": "Llamasombría"
           }
         ],
         "optional": [
           {
-            "id": 4645,
-            "name": "Llamasombría"
-          },
-          {
             "id": 3089,
             "name": "Sombrero mortal de Rabadon"
+          },
+          {
+            "id": 3135,
+            "name": "Bastón del Vacío"
           },
           {
             "id": 3157,
@@ -1040,35 +1250,58 @@
       },
       "counters": [
         {
+          "champion_id": "Ryze",
+          "champion_name": "Ryze",
+          "style": "ofensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 54.3
+        },
+        {
+          "champion_id": "Azir",
+          "champion_name": "Azir",
+          "style": "defensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 56.3
+        },
+        {
+          "champion_id": "Mel",
+          "champion_name": "Mel",
+          "style": "ofensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 52.9
+        },
+        {
+          "champion_id": "Katarina",
+          "champion_name": "Katarina",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 45.1
+        },
+        {
+          "champion_id": "Xerath",
+          "champion_name": "Xerath",
+          "style": "defensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 44.8
+        },
+        {
           "champion_id": "Fizz",
           "champion_name": "Fizz",
           "style": "ofensivo",
-          "tip": "Guarda EE exclusivamente para su salto. Sin ese stun, estás muerto.",
-          "winrate_vs": 48.1
-        },
-        {
-          "champion_id": "Zed",
-          "champion_name": "Zed",
-          "style": "ofensivo",
-          "tip": "Post-6 puede matarte con sombras. Zhonya temprano o pídele el gank a tu jungla.",
-          "winrate_vs": 44.0
-        },
-        {
-          "champion_id": "Galio",
-          "champion_name": "Galio",
-          "style": "defensivo",
-          "tip": "Tanquea tu poke y te ganka con R. Avisa a tus líneas cuando desaparezca.",
-          "winrate_vs": 47.4
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 48.2
         }
-      ]
+      ],
+      "tier": "A+",
+      "tips": []
     },
     "Jhin": {
       "name": "Jhin",
       "lane": "ADC",
-      "winrate": 50.3,
-      "pickrate": 5.5,
-      "banrate": 12.0,
-      "stats_source": "sample",
+      "winrate": 49.5,
+      "pickrate": 15.6,
+      "banrate": null,
+      "stats_source": "web_research_16.13",
       "runes": {
         "primary": [
           {
@@ -1157,35 +1390,58 @@
       },
       "counters": [
         {
-          "champion_id": "Draven",
-          "champion_name": "Draven",
+          "champion_id": "Mel",
+          "champion_name": "Mel",
           "style": "ofensivo",
-          "tip": "Te gana todo intercambio de AA. Cede el empuje temprano y castiga con tu rango de W.",
-          "winrate_vs": 47.8
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 51.8
         },
         {
-          "champion_id": "Samira",
-          "champion_name": "Samira",
-          "style": "ofensivo",
-          "tip": "Su W bloquea tu ulti y tu W. Cuenta su enfriamiento antes de comprometerte.",
-          "winrate_vs": 49.0
-        },
-        {
-          "champion_id": "Sivir",
-          "champion_name": "Sivir",
+          "champion_id": "Ezreal",
+          "champion_name": "Ezreal",
           "style": "defensivo",
-          "tip": "Su escudo come tu W. Rompe el escudo con un AA antes de lanzar el root.",
-          "winrate_vs": 48.5
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 52.3
+        },
+        {
+          "champion_id": "Caitlyn",
+          "champion_name": "Caitlyn",
+          "style": "ofensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 52.7
+        },
+        {
+          "champion_id": "Veigar",
+          "champion_name": "Veigar",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 48.4
+        },
+        {
+          "champion_id": "Senna",
+          "champion_name": "Senna",
+          "style": "defensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 43.3
+        },
+        {
+          "champion_id": "VelKoz",
+          "champion_name": "Vel'Koz",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 43.1
         }
-      ]
+      ],
+      "tier": "A",
+      "tips": []
     },
     "Varus": {
       "name": "Varus",
       "lane": "ADC",
-      "winrate": 53.4,
-      "pickrate": 2.2,
-      "banrate": 1.7,
-      "stats_source": "sample",
+      "winrate": 47.1,
+      "pickrate": 2.9,
+      "banrate": null,
+      "stats_source": "web_research_16.13",
       "runes": {
         "primary": [
           {
@@ -1274,35 +1530,58 @@
       },
       "counters": [
         {
-          "champion_id": "Yasuo",
-          "champion_name": "Yasuo",
+          "champion_id": "Yunara",
+          "champion_name": "Yunara",
           "style": "ofensivo",
-          "tip": "Su muro de viento anula Q, R y tus AA. Espera a que lo gaste o pelea en ángulo.",
-          "winrate_vs": 46.0
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 53.4
         },
         {
-          "champion_id": "Kaisa",
-          "champion_name": "Kai'Sa",
-          "style": "ofensivo",
-          "tip": "Escala mejor que tú: usa tu ventaja de rango en los primeros 15 minutos.",
-          "winrate_vs": 47.6
-        },
-        {
-          "champion_id": "Ziggs",
-          "champion_name": "Ziggs",
+          "champion_id": "Mel",
+          "champion_name": "Mel",
           "style": "defensivo",
-          "tip": "Te gana el poke a larga distancia. Fuerza intercambios de AA donde tu on-hit gana.",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 56.4
+        },
+        {
+          "champion_id": "Aphelios",
+          "champion_name": "Aphelios",
+          "style": "ofensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 51.6
+        },
+        {
+          "champion_id": "Seraphine",
+          "champion_name": "Seraphine",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 43.7
+        },
+        {
+          "champion_id": "KogMaw",
+          "champion_name": "Kog'Maw",
+          "style": "defensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 45.2
+        },
+        {
+          "champion_id": "Nilah",
+          "champion_name": "Nilah",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
           "winrate_vs": 45.5
         }
-      ]
+      ],
+      "tier": "B",
+      "tips": []
     },
     "Zeri": {
       "name": "Zeri",
       "lane": "ADC",
-      "winrate": 51.1,
-      "pickrate": 3.4,
-      "banrate": 10.2,
-      "stats_source": "sample",
+      "winrate": 50.5,
+      "pickrate": 3.8,
+      "banrate": null,
+      "stats_source": "web_research_16.13",
       "runes": {
         "primary": [
           {
@@ -1391,35 +1670,58 @@
       },
       "counters": [
         {
-          "champion_id": "Draven",
-          "champion_name": "Draven",
+          "champion_id": "Mel",
+          "champion_name": "Mel",
           "style": "ofensivo",
-          "tip": "Te aplasta pre-6. Pide a tu soporte jugar defensivo y no pierdas farm bajo torre.",
-          "winrate_vs": 45.5
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 51.8
         },
         {
-          "champion_id": "Nilah",
-          "champion_name": "Nilah",
-          "style": "ofensivo",
-          "tip": "Su all-in con W esquiva tus Q. Kitea hacia tu equipo, nunca en línea recta.",
-          "winrate_vs": 46.7
+          "champion_id": "Varus",
+          "champion_name": "Varus",
+          "style": "defensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 53.5
         },
         {
           "champion_id": "Ezreal",
           "champion_name": "Ezreal",
+          "style": "ofensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 55.7
+        },
+        {
+          "champion_id": "Syndra",
+          "champion_name": "Syndra",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 43.7
+        },
+        {
+          "champion_id": "Hwei",
+          "champion_name": "Hwei",
           "style": "defensivo",
-          "tip": "Línea aburrida de poke: esquiva las Q y gana por escalado natural.",
-          "winrate_vs": 48.2
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 47.2
+        },
+        {
+          "champion_id": "KogMaw",
+          "champion_name": "Kog'Maw",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 46.6
         }
-      ]
+      ],
+      "tier": "A",
+      "tips": []
     },
     "Bard": {
       "name": "Bardo",
       "lane": "SUPP",
-      "winrate": 51.7,
-      "pickrate": 6.5,
-      "banrate": 10.1,
-      "stats_source": "sample",
+      "winrate": 49.3,
+      "pickrate": 6.2,
+      "banrate": null,
+      "stats_source": "web_research_16.13",
       "runes": {
         "primary": [
           {
@@ -1508,35 +1810,58 @@
       },
       "counters": [
         {
-          "champion_id": "Nautilus",
-          "champion_name": "Nautilus",
+          "champion_id": "Mel",
+          "champion_name": "Mel",
           "style": "ofensivo",
-          "tip": "Si te enganchan durante un roam llegando tarde, tu ADC muere. Cronometra tus rotaciones.",
-          "winrate_vs": 49.3
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 55.6
         },
         {
-          "champion_id": "Zyra",
-          "champion_name": "Zyra",
-          "style": "ofensivo",
-          "tip": "Te gana el 2v2 de línea con poke. Cede la línea y gana el mapa con roams.",
-          "winrate_vs": 44.8
-        },
-        {
-          "champion_id": "Taric",
-          "champion_name": "Taric",
+          "champion_id": "Yuumi",
+          "champion_name": "Yuumi",
           "style": "defensivo",
-          "tip": "Su aturdimiento castiga tus AA agresivos. Hostiga solo desde fuera de su rango de E.",
-          "winrate_vs": 47.6
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 53.0
+        },
+        {
+          "champion_id": "Swain",
+          "champion_name": "Swain",
+          "style": "ofensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 53.2
+        },
+        {
+          "champion_id": "Poppy",
+          "champion_name": "Poppy",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 47.2
+        },
+        {
+          "champion_id": "Maokai",
+          "champion_name": "Maokai",
+          "style": "defensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 46.9
+        },
+        {
+          "champion_id": "Senna",
+          "champion_name": "Senna",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 44.7
         }
-      ]
+      ],
+      "tier": "A",
+      "tips": []
     },
     "Neeko": {
       "name": "Neeko",
       "lane": "SUPP",
-      "winrate": 48.5,
-      "pickrate": 8.7,
-      "banrate": 14.9,
-      "stats_source": "sample",
+      "winrate": 50.4,
+      "pickrate": 2.8,
+      "banrate": null,
+      "stats_source": "web_research_16.13",
       "runes": {
         "primary": [
           {
@@ -1625,35 +1950,58 @@
       },
       "counters": [
         {
-          "champion_id": "Blitzcrank",
-          "champion_name": "Blitzcrank",
+          "champion_id": "Mel",
+          "champion_name": "Mel",
           "style": "ofensivo",
-          "tip": "Un gancho acertado te elimina. Envía el clon por delante para provocarlo.",
-          "winrate_vs": 46.5
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 55.2
         },
         {
-          "champion_id": "Alistar",
-          "champion_name": "Alistar",
-          "style": "ofensivo",
-          "tip": "Su combo WQ ignora tu engaño. Mantén la raíz E para su entrada.",
-          "winrate_vs": 44.3
-        },
-        {
-          "champion_id": "Braum",
-          "champion_name": "Braum",
+          "champion_id": "Rakan",
+          "champion_name": "Rakan",
           "style": "defensivo",
-          "tip": "Su escudo bloquea tu Q y tu R en área. Ataca por el ángulo opuesto a su E.",
-          "winrate_vs": 44.5
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 52.1
+        },
+        {
+          "champion_id": "Lux",
+          "champion_name": "Lux",
+          "style": "ofensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 51.7
+        },
+        {
+          "champion_id": "Sona",
+          "champion_name": "Sona",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 47.0
+        },
+        {
+          "champion_id": "Taric",
+          "champion_name": "Taric",
+          "style": "defensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 46.2
+        },
+        {
+          "champion_id": "Soraka",
+          "champion_name": "Soraka",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 46.2
         }
-      ]
+      ],
+      "tier": "B-",
+      "tips": []
     },
     "Pyke": {
       "name": "Pyke",
       "lane": "SUPP",
-      "winrate": 50.8,
-      "pickrate": 9.2,
-      "banrate": 7.7,
-      "stats_source": "sample",
+      "winrate": 51.2,
+      "pickrate": 5.0,
+      "banrate": null,
+      "stats_source": "web_research_16.13",
       "runes": {
         "primary": [
           {
@@ -1742,35 +2090,58 @@
       },
       "counters": [
         {
-          "champion_id": "Leona",
-          "champion_name": "Leona",
+          "champion_id": "Mel",
+          "champion_name": "Mel",
           "style": "ofensivo",
-          "tip": "Si te CCea primero, mueres antes de poder usar la pasiva. No ganchees de frente.",
-          "winrate_vs": 45.1
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 56.7
         },
         {
-          "champion_id": "Soraka",
-          "champion_name": "Soraka",
+          "champion_id": "Lux",
+          "champion_name": "Lux",
           "style": "defensivo",
-          "tip": "Sus curaciones anulan tu poke, pero no tu R: fuerza all-ins con ejecución.",
-          "winrate_vs": 48.6
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 53.7
         },
         {
-          "champion_id": "Braum",
-          "champion_name": "Braum",
+          "champion_id": "Swain",
+          "champion_name": "Swain",
+          "style": "ofensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 53.4
+        },
+        {
+          "champion_id": "Maokai",
+          "champion_name": "Maokai",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 44.0
+        },
+        {
+          "champion_id": "Elise",
+          "champion_name": "Elise",
           "style": "defensivo",
-          "tip": "Bloquea tu gancho con E y su pasiva castiga tu all-in. Roama a otras líneas.",
-          "winrate_vs": 46.4
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 45.2
+        },
+        {
+          "champion_id": "RenataGlasc",
+          "champion_name": "Renata Glasc",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 44.2
         }
-      ]
+      ],
+      "tier": "S-",
+      "tips": []
     },
     "Camille": {
       "name": "Camille",
       "lane": "SUPP",
-      "winrate": 50.2,
-      "pickrate": 7.8,
-      "banrate": 11.8,
-      "stats_source": "sample",
+      "winrate": 48.3,
+      "pickrate": 3.9,
+      "banrate": null,
+      "stats_source": "web_research_16.13",
       "runes": {
         "primary": [
           {
@@ -1859,27 +2230,62 @@
       },
       "counters": [
         {
-          "champion_id": "Morgana",
-          "champion_name": "Morgana",
-          "style": "defensivo",
-          "tip": "Su escudo negro anula el stun de tu E y tu R pierde valor. Fuérzala a gastarlo con amagues.",
-          "winrate_vs": 47.7
-        },
-        {
-          "champion_id": "Zyra",
-          "champion_name": "Zyra",
+          "champion_id": "Mel",
+          "champion_name": "Mel",
           "style": "ofensivo",
-          "tip": "Te desgasta a rango y sus plantas revelan tus flancos. Entra solo con su root en enfriamiento.",
-          "winrate_vs": 44.0
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 56.9
         },
         {
-          "champion_id": "Braum",
-          "champion_name": "Braum",
+          "champion_id": "Xerath",
+          "champion_name": "Xerath",
           "style": "defensivo",
-          "tip": "Bloquea tu engage con muro y pasiva. Salta directamente sobre el ADC, nunca a través de él.",
-          "winrate_vs": 46.9
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 51.7
+        },
+        {
+          "champion_id": "Yuumi",
+          "champion_name": "Yuumi",
+          "style": "ofensivo",
+          "tip": "Matchup favorable según datos de Mobalytics/LoLalytics (parche 16.13).",
+          "winrate_vs": 52.0
+        },
+        {
+          "champion_id": "Taric",
+          "champion_name": "Taric",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 46.6
+        },
+        {
+          "champion_id": "Rell",
+          "champion_name": "Rell",
+          "style": "defensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 43.9
+        },
+        {
+          "champion_id": "Poppy",
+          "champion_name": "Poppy",
+          "style": "ofensivo",
+          "tip": "Matchup desfavorable — evita first-pick si podés banear a este rival.",
+          "winrate_vs": 44.1
         }
-      ]
+      ],
+      "tier": "B",
+      "tips": []
     }
+  },
+  "profile": {
+    "name": "Ronnin",
+    "tag": "#1999",
+    "region": "LAS",
+    "rank": "Emerald 1",
+    "lp": 25,
+    "wins": 50,
+    "losses": 59,
+    "winrate": 46,
+    "icon": "https://opgg-static.akamaized.net/meta/images/profile_icons/profileIcon6097.jpg?image=q_auto:good,f_png,w_200",
+    "url": "https://op.gg/lol/summoners/las/Ronnin-1999"
   }
 }
