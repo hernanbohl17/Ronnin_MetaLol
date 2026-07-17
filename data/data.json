@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T11:17:50.927980+00:00",
+  "updated_at": "2026-07-17T01:41:31.365937+00:00",
   "region": "kr",
   "patch": "16.14.1",
   "ddragon_version": "16.14.1",
@@ -118,7 +118,8 @@
             "id": 3047,
             "name": "Botas blindadas"
           }
-        ]
+        ],
+        "order": null
       },
       "combo": {
         "keys": "Q → Q → E(aliado/muro) → W → R",
@@ -258,7 +259,8 @@
             "id": 3158,
             "name": "Botas jonias de la lucidez"
           }
-        ]
+        ],
+        "order": null
       },
       "combo": {
         "keys": "R(cañón) → E(puerta) + Q → W → R(martillo) → Q → E",
@@ -398,7 +400,8 @@
             "id": 6694,
             "name": "Rencor de Serylda"
           }
-        ]
+        ],
+        "order": null
       },
       "combo": {
         "keys": "Q1 → dash pasiva → W(parry) → Q2 → E → R",
@@ -466,31 +469,19 @@
       "runes": {
         "primary": [
           {
-            "id": 8021,
-            "name": "Pies veloces",
-            "icon": "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png"
+            "id": 8128,
+            "name": "Cosecha oscura",
+            "icon": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png"
           },
-          {
-            "id": 9111,
-            "name": "Triunfo",
-            "icon": "perk-images/Styles/Precision/Triumph.png"
-          },
-          {
-            "id": 9104,
-            "name": "Leyenda: Presteza",
-            "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
-          },
-          {
-            "id": 8014,
-            "name": "Golpe de gracia",
-            "icon": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
-          }
-        ],
-        "secondary": [
           {
             "id": 8143,
             "name": "Impacto repentino",
             "icon": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png"
+          },
+          {
+            "id": 8138,
+            "name": "Recuerdos macabros",
+            "icon": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png"
           },
           {
             "id": 8135,
@@ -498,44 +489,82 @@
             "icon": "perk-images/Styles/Domination/TreasureHunter/TreasureHunter.png"
           }
         ],
-        "note": "Juego de pies para sustain; Cosecha oscura aparece en Corea para estilos de snowball."
+        "secondary": [
+          {
+            "id": 9104,
+            "name": "Leyenda: Presteza",
+            "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "id": 9111,
+            "name": "Triunfo",
+            "icon": "perk-images/Styles/Precision/Triumph.png"
+          }
+        ],
+        "note": "Cosecha oscura es la keystone más jugada (68% de partidas, ~50.2% WR) según Onetricks/Mobalytics, patch 16.13-14."
       },
       "build": {
         "starting": [],
         "core": [
           {
+            "id": 6697,
+            "name": "Soberbia"
+          },
+          {
+            "id": 3047,
+            "name": "Botas blindadas"
+          },
+          {
             "id": 6676,
             "name": "Recaudadora"
-          },
-          {
-            "id": 3031,
-            "name": "Filo infinito"
-          },
-          {
-            "id": 3036,
-            "name": "Recuerdos de lord Dominik"
           }
         ],
         "optional": [
           {
-            "id": 3142,
-            "name": "Filo fantasmal de Youmuu"
+            "id": 3036,
+            "name": "Recuerdos de lord Dominik"
           },
           {
-            "id": 3072,
-            "name": "Sanguinaria"
+            "id": 6673,
+            "name": "Arcoescudo inmortal"
           },
           {
-            "id": 3006,
-            "name": "Grebas de berserker"
+            "id": 3031,
+            "name": "Filo infinito"
+          }
+        ],
+        "order": [
+          {
+            "id": 6697,
+            "name": "Soberbia"
+          },
+          {
+            "id": 3047,
+            "name": "Botas blindadas"
+          },
+          {
+            "id": 6676,
+            "name": "Recaudadora"
+          },
+          {
+            "id": 3036,
+            "name": "Recuerdos de lord Dominik"
+          },
+          {
+            "id": 6673,
+            "name": "Arcoescudo inmortal"
+          },
+          {
+            "id": 3031,
+            "name": "Filo infinito"
           }
         ]
       },
       "combo": {
-        "keys": "E → AA → Q → AA (E resetea el AA)",
-        "description": "El E recarga un proyectil y resetea el ataque básico: pega AA, dash con E, AA instantáneo y Q hacia una pared para el doble impacto."
+        "keys": "AA → E → AA → AA (el E resetea 1 disparo del arma)",
+        "description": "Pega un AA, usa E para desplazarte y recargar un disparo, y encadena AA-AA de inmediato: así conectás 3 disparos antes de tener que recargar, en vez de los 2 normales."
       },
-      "playstyle": "Jungla de farmeo agresivo: limpia rápido, roba campamentos con tu rango de burst y busca peleas 1v1 donde tu E acumule armadura.",
+      "playstyle": "Jungla de farmeo agresivo: limpia rápido, invade con tu rango de burst y busca peleas 1v1 cortas apoyado en el true damage y el sustain de tus runas.",
       "alt_builds": {
         "vs_offensive": "Contra invades (Elise, Kha'Zix): inicia con visión profunda, runa Coraza de hueso secundaria y primer ítem defensivo-híbrido.",
         "vs_defensive": "Contra tanques (Rammus, Poppy): Recuerdos de lord Dominik en segundo ítem y evita peleas largas donde su armadura gane."
@@ -586,6 +615,84 @@
       ],
       "tier": "S",
       "tips": [],
+      "rune_pages": [
+        {
+          "label": "Cosecha oscura (más jugada)",
+          "primary": [
+            {
+              "id": 8128,
+              "name": "Cosecha oscura",
+              "icon": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png"
+            },
+            {
+              "id": 8143,
+              "name": "Impacto repentino",
+              "icon": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png"
+            },
+            {
+              "id": 8138,
+              "name": "Recuerdos macabros",
+              "icon": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png"
+            },
+            {
+              "id": 8135,
+              "name": "Cazador de tesoros",
+              "icon": "perk-images/Styles/Domination/TreasureHunter/TreasureHunter.png"
+            }
+          ],
+          "secondary": [
+            {
+              "id": 9104,
+              "name": "Leyenda: Presteza",
+              "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+            },
+            {
+              "id": 9111,
+              "name": "Triunfo",
+              "icon": "perk-images/Styles/Precision/Triumph.png"
+            }
+          ],
+          "note": "68% de las partidas la usan. Primaria Dominación: Cosecha oscura + Impacto repentino + Recuerdos macabros + Cazatesoros. Secundaria Precisión: Leyenda: Presteza + Triunfo."
+        },
+        {
+          "label": "Juego de pies (alternativa)",
+          "primary": [
+            {
+              "id": 8021,
+              "name": "Pies veloces",
+              "icon": "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png"
+            },
+            {
+              "id": 9111,
+              "name": "Triunfo",
+              "icon": "perk-images/Styles/Precision/Triumph.png"
+            },
+            {
+              "id": 9104,
+              "name": "Leyenda: Presteza",
+              "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+            },
+            {
+              "id": 8014,
+              "name": "Golpe de gracia",
+              "icon": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+            }
+          ],
+          "secondary": [
+            {
+              "id": 8304,
+              "name": "Calzado mágico",
+              "icon": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png"
+            },
+            {
+              "id": 8330,
+              "name": "Tónico triple",
+              "icon": "perk-images/Styles/Inspiration/TripleTonic/TripleTonic.png"
+            }
+          ],
+          "note": "22% de las partidas. Primaria Precisión: Juego de pies + Triunfo + Leyenda: Presteza + Golpe de gracia. Secundaria Inspiración: Calzado mágico (ahorra 300 de oro) + Tónico triple."
+        }
+      ],
       "jungle_paths": [
         {
           "title": "Full clear estándar",
@@ -670,7 +777,8 @@
             "id": 6333,
             "name": "Baile de la muerte"
           }
-        ]
+        ],
+        "order": null
       },
       "combo": {
         "keys": "Q → Q2 → ward-salto → R → patada hacia tu equipo (InSec)",
@@ -811,7 +919,8 @@
             "id": 3089,
             "name": "Sombrero mortal de Rabadon"
           }
-        ]
+        ],
+        "order": null
       },
       "combo": {
         "keys": "E → E2 → W → Q → AA + R robada",
@@ -957,7 +1066,8 @@
             "id": 3071,
             "name": "Cuchilla negra"
           }
-        ]
+        ],
+        "order": null
       },
       "combo": {
         "keys": "E(marca) → Q → invocar fantasmas → W(jaula) → R",
@@ -1097,7 +1207,8 @@
             "id": 3157,
             "name": "Reloj de arena de Zhonya"
           }
-        ]
+        ],
+        "order": null
       },
       "combo": {
         "keys": "E(retroceso) → Q → Q2 → W(invisible) → R(zona)",
@@ -1237,7 +1348,8 @@
             "id": 3157,
             "name": "Reloj de arena de Zhonya"
           }
-        ]
+        ],
+        "order": null
       },
       "combo": {
         "keys": "R → QW(zona) → QQ+EE follow-up",
@@ -1377,7 +1489,8 @@
             "id": 3009,
             "name": "Botas de rapidez"
           }
-        ]
+        ],
+        "order": null
       },
       "combo": {
         "keys": "W(root con marca aliada) → AA → E → 4ª bala",
@@ -1517,7 +1630,8 @@
             "id": 3006,
             "name": "Grebas de berserker"
           }
-        ]
+        ],
+        "order": null
       },
       "combo": {
         "keys": "AA x3 → W detonación con Q cargada → E → R(root)",
@@ -1657,7 +1771,8 @@
             "id": 3006,
             "name": "Grebas de berserker"
           }
-        ]
+        ],
+        "order": null
       },
       "combo": {
         "keys": "Q constante (kiting) → E sobre muro → R → Q potenciadas",
@@ -1797,7 +1912,8 @@
             "id": 3009,
             "name": "Botas de rapidez"
           }
-        ]
+        ],
+        "order": null
       },
       "combo": {
         "keys": "Q(stun contra muro) → AA con campanas → R en objetivos",
@@ -1937,7 +2053,8 @@
             "id": 3041,
             "name": "Robaalmas de Mejai"
           }
-        ]
+        ],
+        "order": null
       },
       "combo": {
         "keys": "W(clon) → E(root) → Q → R (con pasiva de disfraz)",
@@ -2077,7 +2194,8 @@
             "id": 3009,
             "name": "Botas de rapidez"
           }
-        ]
+        ],
+        "order": null
       },
       "combo": {
         "keys": "Q(gancho) → E(stun) → AA → R(ejecución, resetea)",
@@ -2217,7 +2335,8 @@
             "id": 3009,
             "name": "Botas de rapidez"
           }
-        ]
+        ],
+        "order": null
       },
       "combo": {
         "keys": "E(muro) → E2 → W → Q → Q2(daño true) → R",
