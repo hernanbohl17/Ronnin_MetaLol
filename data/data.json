@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-28T12:25:35.359870+00:00",
+  "updated_at": "2026-07-29T13:09:47.931115+00:00",
   "region": "kr",
-  "patch": "16.14.1",
-  "ddragon_version": "16.14.1",
+  "patch": "16.15.1",
+  "ddragon_version": "16.15.1",
   "pool": {
     "TOP": [
       "KSante",
